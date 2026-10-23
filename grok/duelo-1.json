@@ -1,0 +1,17 @@
+[
+  {"level": 1, "text": "{jugador} contra {otro}: el primero que diga 5 frutas que empiecen por M gana."},
+  {"level": 1, "text": "{jugador} contra {otro}: los dos con un pie en el aire. El que lo baje primero pierde."},
+  {"level": 1, "text": "{jugador} contra {otro}: decid capitales de Europa por turnos. El que se quede en blanco pierde."},
+  {"level": 1, "text": "{jugador} contra {otro}: el grupo vota quién pone la mejor cara de enfadado/a. 5 segundos cada uno."},
+  {"level": 1, "text": "{jugador} contra {otro}: decid marcas de coche por turnos. El que repita o se quede en blanco pierde."},
+  {"level": 1, "text": "{jugador} contra {otro}: mirada fija. El primero que parpadee pierde."},
+  {"level": 1, "text": "{jugador} contra {otro}: el primero que toque algo azul de la habitación gana."},
+  {"level": 1, "text": "{jugador} contra {otro}: decid series españolas por turnos. El que repita o se quede en blanco pierde."},
+  {"level": 1, "text": "{jugador} contra {otro}: el que diga más provincias de España en 15 segundos gana."},
+  {"level": 1, "text": "{jugador} contra {otro}: decid superhéroes por turnos. El que se quede en blanco pierde."},
+  {"level": 1, "text": "{jugador} contra {otro}: el primero que diga 3 países que empiecen por C gana."},
+  {"level": 1, "text": "{jugador} contra {otro}: el grupo vota quién camina más raro. 5 pasos cada uno."},
+  {"level": 1, "text": "{jugador} contra {otro}: sacad la lengua. El primero que la meta pierde."},
+  {"level": 1, "text": "{jugador} contra {otro}: el que diga más instrumentos musicales en 12 segundos gana."},
+  {"level": 1, "text": "{jugador} contra {otro}: el grupo vota quién imita mejor a una gallina. 5 segundos cada uno."}
+]

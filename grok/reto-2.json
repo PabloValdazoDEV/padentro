@@ -1,0 +1,22 @@
+[
+  {"level": 2, "text": "Canta el estribillo de una canción de reggaetón elegida por el grupo."},
+  {"level": 2, "text": "Imita cómo bailas cuando estás solo/a en casa."},
+  {"level": 2, "text": "Haz 10 flexiones diciendo el título de una canción distinta en cada una."},
+  {"level": 2, "text": "Deja que el grupo elija una pose de 'foto de fiesta' y mantenla 15 segundos."},
+  {"level": 2, "text": "Di tres piropos absurdos a {otro} sin reírte."},
+  {"level": 2, "text": "Enseña la última story que has subido y explica por qué la elegiste."},
+  {"level": 2, "text": "Canta una canción de los 2000 con la voz más gangosa posible."},
+  {"level": 2, "text": "Inventa un grito de guerra para el grupo y grítalo tres veces."},
+  {"level": 2, "text": "Imita a alguien pidiendo en la barra de una discoteca llena."},
+  {"level": 2, "text": "Manda un sticker random a tu chat más reciente y no des explicaciones."},
+  {"level": 2, "text": "Canta el estribillo de una canción al revés lo mejor que puedas."},
+  {"level": 2, "text": "Deja que {otro} elija una canción y báilala a cámara lenta."},
+  {"level": 2, "text": "Enseña tu playlist más vergonzosa."},
+  {"level": 2, "text": "Inventa un brindis absurdo y dedícaselo a todo el grupo.", "alcohol": true},
+  {"level": 2, "text": "Deja que el grupo te dibuje un 'tatuaje' en el brazo con un boli."},
+  {"level": 2, "text": "Canta 'La Macarena' imitando solo los instrumentos."},
+  {"level": 2, "text": "Haz 15 segundos de guitarra imaginaria con una canción que elija {otro}."},
+  {"level": 2, "text": "Di tres excusas ridículas para llegar tarde a una fiesta."},
+  {"level": 2, "text": "Ponte los cascos con la canción que elija {otro} y baila sin que los demás la oigan."},
+  {"level": 2, "text": "Imita cómo intentas pedir un taxi a las 5 de la mañana."}
+]

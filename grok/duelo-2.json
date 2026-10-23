@@ -1,0 +1,15 @@
+[
+  {"level": 2, "text": "{jugador} contra {otro}: el que tenga más notificaciones sin leer pierde."},
+  {"level": 2, "text": "{jugador} contra {otro}: el grupo vota quién tiene peor cara de resaca. 5 segundos de pose cada uno."},
+  {"level": 2, "text": "{jugador} contra {otro}: enseñad la última foto de fiesta del móvil. El grupo decide cuál es más caótica."},
+  {"level": 2, "text": "{jugador} contra {otro}: el grupo vota quién baila peor. 8 segundos de discoteca cada uno."},
+  {"level": 2, "text": "{jugador} contra {otro}: decid discotecas o bares por turnos. El que repita o se quede en blanco pierde."},
+  {"level": 2, "text": "{jugador} contra {otro}: el que tenga menos apps de redes sociales instaladas pierde."},
+  {"level": 2, "text": "{jugador} contra {otro}: brazo en alto como en un brindis. El que lo baje primero pierde."},
+  {"level": 2, "text": "{jugador} contra {otro}: contad una anécdota de fiesta en 15 segundos. El grupo vota la peor contada."},
+  {"level": 2, "text": "{jugador} contra {otro}: poned el último audio que os han mandado. El grupo decide cuál es más random."},
+  {"level": 2, "text": "{jugador} contra {otro}: el primero que encuentre algo que sirva de micrófono y cante gana."},
+  {"level": 2, "text": "{jugador} contra {otro}: decid festivales por turnos. El que repita o se quede en blanco pierde."},
+  {"level": 2, "text": "{jugador} contra {otro}: bailad en el sitio con los ojos cerrados. El primero que los abra pierde."},
+  {"level": 2, "text": "{jugador} contra {otro}: el primero que diga 3 canciones que siempre suenan a las 4 de la mañana gana."}
+]

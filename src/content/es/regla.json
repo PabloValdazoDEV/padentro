@@ -1,0 +1,305 @@
+[
+  {
+    "id": "rg1-001",
+    "level": 1,
+    "text": "Prohibido decir 'beber'. Quien lo diga, bebe.",
+    "alcohol": true
+  },
+  {
+    "id": "rg1-002",
+    "level": 1,
+    "text": "Solo se puede beber con la mano izquierda.",
+    "alcohol": true
+  },
+  {
+    "id": "rg1-003",
+    "level": 1,
+    "text": "{jugador} es el/la rey/reina: cuando levante la mano, el último en imitarle bebe."
+  },
+  {
+    "id": "rg1-004",
+    "level": 1,
+    "text": "Prohibido señalar con el dedo."
+  },
+  {
+    "id": "rg1-005",
+    "level": 1,
+    "text": "Prohibido decir 'vale'. Quien lo diga, bebe."
+  },
+  {
+    "id": "rg1-006",
+    "level": 1,
+    "text": "Cada vez que alguien diga 'literal', bebe."
+  },
+  {
+    "id": "rg1-007",
+    "level": 1,
+    "text": "Prohibido decir 'o sea'. Quien lo diga, bebe."
+  },
+  {
+    "id": "rg1-008",
+    "level": 1,
+    "text": "Solo se puede hablar susurrando. Quien levante la voz, bebe."
+  },
+  {
+    "id": "rg1-009",
+    "level": 1,
+    "text": "Prohibido tocarse el pelo. Quien lo haga, bebe."
+  },
+  {
+    "id": "rg1-010",
+    "level": 1,
+    "text": "Antes de beber hay que decir '¡salud!'. Si se te olvida, otro trago.",
+    "alcohol": true
+  },
+  {
+    "id": "rg1-011",
+    "level": 1,
+    "text": "{jugador} es el/la director/a: cuando diga '¡acción!', el último en sonreír bebe."
+  },
+  {
+    "id": "rg1-012",
+    "level": 1,
+    "text": "Cada vez que alguien se cruce de brazos, bebe."
+  },
+  {
+    "id": "rg1-013",
+    "level": 1,
+    "text": "Hay que terminar cada frase con '¿eh?'. Quien se olvide, bebe."
+  },
+  {
+    "id": "rg1-014",
+    "level": 1,
+    "text": "Solo se puede beber de pie. Quien beba sentado/a, otro trago.",
+    "alcohol": true
+  },
+  {
+    "id": "rg1-015",
+    "level": 1,
+    "text": "Hay que pedir 'por favor' para cualquier cosa. Si no, bebes."
+  },
+  {
+    "id": "rg1-016",
+    "level": 1,
+    "text": "{jugador} manda callar: cuando diga '¡silencio!', quien siga hablando bebe."
+  },
+  {
+    "id": "rg1-017",
+    "level": 1,
+    "text": "Solo se puede gesticular con una mano. Quien use las dos, bebe."
+  },
+  {
+    "id": "rg1-018",
+    "level": 1,
+    "text": "Cada vez que alguien bostece, bebe."
+  },
+  {
+    "id": "rg1-019",
+    "level": 1,
+    "text": "Prohibido apoyar los codos en la mesa. Quien lo haga, bebe."
+  },
+  {
+    "id": "rg2-001",
+    "level": 2,
+    "text": "Prohibido decir nombres. Quien lo haga, bebe."
+  },
+  {
+    "id": "rg2-002",
+    "level": 2,
+    "text": "Antes de beber hay que brindar con alguien. Si se te olvida, otro trago.",
+    "alcohol": true
+  },
+  {
+    "id": "rg2-003",
+    "level": 2,
+    "text": "{jugador} es el/la maestro/a de preguntas: quien le conteste una pregunta, bebe."
+  },
+  {
+    "id": "rg2-004",
+    "level": 2,
+    "text": "Hay que hablar en tercera persona."
+  },
+  {
+    "id": "rg2-005",
+    "level": 2,
+    "text": "Prohibido decir 'resaca'. Quien lo diga, bebe."
+  },
+  {
+    "id": "rg2-006",
+    "level": 2,
+    "text": "Cada vez que alguien diga 'mañana', bebe."
+  },
+  {
+    "id": "rg2-007",
+    "level": 2,
+    "text": "Cada vez que alguien diga 'Instagram', bebe."
+  },
+  {
+    "id": "rg2-008",
+    "level": 2,
+    "text": "{jugador} es el/la DJ: cuando grite '¡sube!', todos levantan los brazos. El último bebe."
+  },
+  {
+    "id": "rg2-009",
+    "level": 2,
+    "text": "{jugador} es el/la portero/a: hay que pedirle permiso para ir al baño. Si no, bebes."
+  },
+  {
+    "id": "rg2-010",
+    "level": 2,
+    "text": "{jugador} es el/la fotógrafo/a: cuando diga '¡pose!', todos posan. El último bebe."
+  },
+  {
+    "id": "rg2-011",
+    "level": 2,
+    "text": "Antes de beber hay que hacer el gesto rockero con la mano. Si se te olvida, otro trago.",
+    "alcohol": true
+  },
+  {
+    "id": "rg2-012",
+    "level": 2,
+    "text": "Hay que terminar cada frase con 'tío' o 'tía'. Quien se olvide, bebe."
+  },
+  {
+    "id": "rg2-013",
+    "level": 2,
+    "text": "Cada vez que alguien beba, hay que decir '¡qué fuerte!'. Quien no lo diga, bebe.",
+    "alcohol": true
+  },
+  {
+    "id": "rg3-001",
+    "level": 3,
+    "text": "Cada vez que alguien mire el móvil, bebe."
+  },
+  {
+    "id": "rg3-002",
+    "level": 3,
+    "text": "Prohibido decir 'sí' o 'no'."
+  },
+  {
+    "id": "rg3-003",
+    "level": 3,
+    "text": "{jugador} y {otro} son compañeros de trago: cuando uno beba, bebe el otro.",
+    "alcohol": true
+  },
+  {
+    "id": "rg3-004",
+    "level": 3,
+    "text": "Quien diga una palabrota bebe."
+  },
+  {
+    "id": "rg3-005",
+    "level": 3,
+    "text": "Cada vez que alguien mencione a su ex, bebe."
+  },
+  {
+    "id": "rg3-006",
+    "level": 3,
+    "text": "Prohibido decir 'amor' o 'te quiero'. Quien lo diga, bebe."
+  },
+  {
+    "id": "rg3-007",
+    "level": 3,
+    "text": "Quien mire el móvil tiene que leer en voz alta su última notificación."
+  },
+  {
+    "id": "rg3-008",
+    "level": 3,
+    "text": "Cada vez que alguien nombre a una persona que no está aquí, bebe."
+  },
+  {
+    "id": "rg3-009",
+    "level": 3,
+    "text": "Antes de responder a cualquier pregunta hay que decir 'sinceramente'. Quien se olvide, bebe."
+  },
+  {
+    "id": "rg3-010",
+    "level": 3,
+    "text": "{jugador} puede hacer una pregunta incómoda a quien quiera una vez por ronda. Quien no conteste, bebe."
+  },
+  {
+    "id": "rg3-011",
+    "level": 3,
+    "text": "Hay que llamar a todo el mundo 'cariño'. Quien se olvide, bebe."
+  },
+  {
+    "id": "rg3-012",
+    "level": 3,
+    "text": "Prohibido mentir: si el grupo pilla a alguien, bebe 3 tragos."
+  },
+  {
+    "id": "rg3-013",
+    "level": 3,
+    "text": "Cada vez que alguien se ponga rojo/a, bebe. Decide el grupo."
+  },
+  {
+    "id": "rg3-014",
+    "level": 3,
+    "text": "{jugador} y {otro} van de la mano hasta la siguiente norma. Si se sueltan, beben."
+  },
+  {
+    "id": "rg4-001",
+    "level": 4,
+    "text": "Quien se ría, bebe."
+  },
+  {
+    "id": "rg4-002",
+    "level": 4,
+    "text": "El que vaya al baño tiene que contar un secreto al volver."
+  },
+  {
+    "id": "rg4-003",
+    "level": 4,
+    "text": "{jugador} puede mandar beber a quien quiera una vez por ronda."
+  },
+  {
+    "id": "rg4-004",
+    "level": 4,
+    "text": "Prohibido decir 'yo'."
+  },
+  {
+    "id": "rg4-005",
+    "level": 4,
+    "text": "Cualquiera puede pedir una vez ver el último chat de otra persona. Quien se niegue, bebe 3 tragos."
+  },
+  {
+    "id": "rg4-006",
+    "level": 4,
+    "text": "{jugador} es el/la juez/a: si cree que una respuesta es mentira, quien la dio bebe."
+  },
+  {
+    "id": "rg4-007",
+    "level": 4,
+    "text": "Cada vez que suene un móvil, su dueño/a enseña la notificación al grupo o bebe 2 tragos."
+  },
+  {
+    "id": "rg4-008",
+    "level": 4,
+    "text": "Prohibido usar el móvil sin enseñar la pantalla al grupo. Quien lo haga, bebe."
+  },
+  {
+    "id": "rg4-009",
+    "level": 4,
+    "text": "Todas las respuestas se dan mirando a los ojos a {otro}. Quien aparte la mirada, bebe."
+  },
+  {
+    "id": "rg4-010",
+    "level": 4,
+    "text": "{jugador} puede pedir a cualquiera que cuente su última respuesta con más detalle. Si se niega, bebe 3 tragos."
+  },
+  {
+    "id": "rg4-011",
+    "level": 4,
+    "text": "Quien se raje en cualquier carta, bebe 2 tragos más."
+  },
+  {
+    "id": "rg4-012",
+    "level": 4,
+    "text": "{jugador} es el/la periodista: después de cada turno puede hacer una pregunta extra. Quien no conteste, bebe."
+  },
+  {
+    "id": "rg4-013",
+    "level": 4,
+    "text": "Cada vez que alguien hable de una persona que no está, tiene que decir algo bueno de ella. Si no, bebe."
+  }
+]

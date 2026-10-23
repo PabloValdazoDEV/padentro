@@ -1,0 +1,11 @@
+[
+  {"level": 3, "text": "Todos los que hayan stalkeado a alguien esta semana beben un trago."},
+  {"level": 3, "text": "El último en mirar al techo bebe 2 tragos."},
+  {"level": 3, "text": "El primero en decir en voz alta el nombre de un ex reparte 2 tragos."},
+  {"level": 3, "text": "El último en poner una mano en la mesa bebe 2 tragos."},
+  {"level": 3, "text": "Todos enseñan cuántos chats silenciados tienen. Quien tenga más reparte 2 tragos."},
+  {"level": 3, "text": "Todos señalan a quien más esconde lo que siente. El más señalado bebe."},
+  {"level": 3, "text": "El primero en confesar que tiene un crush secreto reparte 2 tragos."},
+  {"level": 3, "text": "El último en mirar a {jugador} bebe 2 tragos."},
+  {"level": 3, "text": "Brindis: todos beben por quien tenga el secreto más jugoso.", "alcohol": true}
+]

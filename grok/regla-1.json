@@ -1,0 +1,17 @@
+[
+  {"level": 1, "text": "Prohibido decir 'vale'. Quien lo diga, bebe."},
+  {"level": 1, "text": "Cada vez que alguien diga 'literal', bebe."},
+  {"level": 1, "text": "Prohibido decir 'o sea'. Quien lo diga, bebe."},
+  {"level": 1, "text": "Solo se puede hablar susurrando. Quien levante la voz, bebe."},
+  {"level": 1, "text": "Prohibido tocarse el pelo. Quien lo haga, bebe."},
+  {"level": 1, "text": "Antes de beber hay que decir '¡salud!'. Si se te olvida, otro trago.", "alcohol": true},
+  {"level": 1, "text": "{jugador} es el/la director/a: cuando diga '¡acción!', el último en sonreír bebe."},
+  {"level": 1, "text": "Cada vez que alguien se cruce de brazos, bebe."},
+  {"level": 1, "text": "Hay que terminar cada frase con '¿eh?'. Quien se olvide, bebe."},
+  {"level": 1, "text": "Solo se puede beber de pie. Quien beba sentado/a, otro trago.", "alcohol": true},
+  {"level": 1, "text": "Hay que pedir 'por favor' para cualquier cosa. Si no, bebes."},
+  {"level": 1, "text": "{jugador} manda callar: cuando diga '¡silencio!', quien siga hablando bebe."},
+  {"level": 1, "text": "Solo se puede gesticular con una mano. Quien use las dos, bebe."},
+  {"level": 1, "text": "Cada vez que alguien bostece, bebe."},
+  {"level": 1, "text": "Prohibido apoyar los codos en la mesa. Quien lo haga, bebe."}
+]

@@ -1,0 +1,677 @@
+[
+  {
+    "id": "yn1-001",
+    "level": 1,
+    "text": "Yo nunca he fingido estar enfermo/a para no ir a clase o al trabajo."
+  },
+  {
+    "id": "yn1-002",
+    "level": 1,
+    "text": "Yo nunca me he quedado dormido/a en el transporte y me he pasado de parada."
+  },
+  {
+    "id": "yn1-003",
+    "level": 1,
+    "text": "Yo nunca he hablado solo/a en voz alta en la calle."
+  },
+  {
+    "id": "yn1-004",
+    "level": 1,
+    "text": "Yo nunca he comido algo que se había caído al suelo."
+  },
+  {
+    "id": "yn1-005",
+    "level": 1,
+    "text": "Yo nunca he cantado en la ducha a pleno pulmón."
+  },
+  {
+    "id": "yn1-006",
+    "level": 1,
+    "text": "Yo nunca he olvidado el cumpleaños de mi mejor amigo/a."
+  },
+  {
+    "id": "yn1-007",
+    "level": 1,
+    "text": "Yo nunca he visto una serie entera en un fin de semana."
+  },
+  {
+    "id": "yn1-008",
+    "level": 1,
+    "text": "Yo nunca he mentido sobre mi edad."
+  },
+  {
+    "id": "yn1-009",
+    "level": 1,
+    "text": "Yo nunca he perdido las llaves de casa dos veces en el mismo mes."
+  },
+  {
+    "id": "yn1-010",
+    "level": 1,
+    "text": "Yo nunca he comprado algo solo porque estaba de oferta y luego no lo he usado."
+  },
+  {
+    "id": "yn1-011",
+    "level": 1,
+    "text": "Yo nunca he fingido saber de lo que hablaban en una conversación."
+  },
+  {
+    "id": "yn1-012",
+    "level": 1,
+    "text": "Yo nunca he cenado cereales."
+  },
+  {
+    "id": "yn1-013",
+    "level": 1,
+    "text": "Yo nunca he buscado en Google cómo se escribe una palabra que debería saber."
+  },
+  {
+    "id": "yn1-014",
+    "level": 1,
+    "text": "Yo nunca he guardado una caja vacía 'por si acaso' durante meses."
+  },
+  {
+    "id": "yn1-015",
+    "level": 1,
+    "text": "Yo nunca he hablado con mi mascota como si me entendiera todo."
+  },
+  {
+    "id": "yn1-016",
+    "level": 1,
+    "text": "Yo nunca he dejado una serie en el segundo capítulo."
+  },
+  {
+    "id": "yn1-017",
+    "level": 1,
+    "text": "Yo nunca he matado una planta en menos de un mes."
+  },
+  {
+    "id": "yn1-018",
+    "level": 1,
+    "text": "Yo nunca he comprado comida para llevar y me la he comido entera de camino a casa."
+  },
+  {
+    "id": "yn1-019",
+    "level": 1,
+    "text": "Yo nunca he fingido estar ocupado/a para no contestar un mensaje."
+  },
+  {
+    "id": "yn1-020",
+    "level": 1,
+    "text": "Yo nunca he guardado capturas de conversaciones tontas."
+  },
+  {
+    "id": "yn1-021",
+    "level": 1,
+    "text": "Yo nunca me he quedado dormido/a en el sofá con la ropa de calle puesta."
+  },
+  {
+    "id": "yn1-022",
+    "level": 1,
+    "text": "Yo nunca he discutido en voz alta con el ordenador o con un electrodoméstico."
+  },
+  {
+    "id": "yn1-023",
+    "level": 1,
+    "text": "Yo nunca he olvidado dónde había aparcado."
+  },
+  {
+    "id": "yn1-024",
+    "level": 1,
+    "text": "Yo nunca he comido directamente de la sartén para no ensuciar un plato."
+  },
+  {
+    "id": "yn1-025",
+    "level": 1,
+    "text": "Yo nunca he dicho 'estoy de camino' cuando todavía estaba en casa."
+  },
+  {
+    "id": "yn1-026",
+    "level": 1,
+    "text": "Yo nunca me he reído en un momento serio sin poder parar."
+  },
+  {
+    "id": "yn1-027",
+    "level": 1,
+    "text": "Yo nunca he salido de casa con calcetines de distinta pareja."
+  },
+  {
+    "id": "yn2-001",
+    "level": 2,
+    "text": "Yo nunca me he colado en una fiesta sin estar invitado/a."
+  },
+  {
+    "id": "yn2-002",
+    "level": 2,
+    "text": "Yo nunca he vomitado por beber."
+  },
+  {
+    "id": "yn2-003",
+    "level": 2,
+    "text": "Yo nunca he mandado un mensaje del que me arrepentí al día siguiente."
+  },
+  {
+    "id": "yn2-004",
+    "level": 2,
+    "text": "Yo nunca he hecho ghosting a alguien."
+  },
+  {
+    "id": "yn2-005",
+    "level": 2,
+    "text": "Yo nunca me he despertado sin saber cómo llegué a casa."
+  },
+  {
+    "id": "yn2-006",
+    "level": 2,
+    "text": "Yo nunca he usado una app de ligar."
+  },
+  {
+    "id": "yn2-007",
+    "level": 2,
+    "text": "Yo nunca he dicho 'esta es la última' y he seguido bebiendo."
+  },
+  {
+    "id": "yn2-008",
+    "level": 2,
+    "text": "Yo nunca he llorado viendo una película de dibujos."
+  },
+  {
+    "id": "yn2-009",
+    "level": 2,
+    "text": "Yo nunca he vuelto de fiesta sin la chaqueta o sin un pendiente."
+  },
+  {
+    "id": "yn2-010",
+    "level": 2,
+    "text": "Yo nunca he subido una story borracho/a y la he borrado al día siguiente."
+  },
+  {
+    "id": "yn2-011",
+    "level": 2,
+    "text": "Yo nunca le he dejado el móvil a alguien en una fiesta y me he arrepentido."
+  },
+  {
+    "id": "yn2-012",
+    "level": 2,
+    "text": "Yo nunca he llegado a casa a las 7 de la mañana y he dicho que eran las 3."
+  },
+  {
+    "id": "yn2-013",
+    "level": 2,
+    "text": "Yo nunca he dormido en el sofá de alguien después de una noche de fiesta."
+  },
+  {
+    "id": "yn2-014",
+    "level": 2,
+    "text": "Yo nunca he mandado un mensaje al chat equivocado en plena noche."
+  },
+  {
+    "id": "yn2-015",
+    "level": 2,
+    "text": "Yo nunca he dejado que subieran una foto de grupo en la que salgo horrible."
+  },
+  {
+    "id": "yn2-016",
+    "level": 2,
+    "text": "Yo nunca he gastado en una noche bastante más de lo que pensaba."
+  },
+  {
+    "id": "yn2-017",
+    "level": 2,
+    "text": "Yo nunca he acabado en un after al que no tenía ninguna intención de ir."
+  },
+  {
+    "id": "yn2-018",
+    "level": 2,
+    "text": "Yo nunca he bailado una canción que odio solo porque estaba sonando fuerte."
+  },
+  {
+    "id": "yn2-019",
+    "level": 2,
+    "text": "Yo nunca he hecho una videollamada borracho/a de la que me he arrepentido."
+  },
+  {
+    "id": "yn2-020",
+    "level": 2,
+    "text": "Yo nunca he tenido que disimular la resaca delante de mis padres o de mi jefe/a."
+  },
+  {
+    "id": "yn2-021",
+    "level": 2,
+    "text": "Yo nunca he perdido un zapato en una discoteca y he seguido bailando como si nada."
+  },
+  {
+    "id": "yn2-022",
+    "level": 2,
+    "text": "Yo nunca he fingido saberme la letra de una canción para no quedar mal en la pista."
+  },
+  {
+    "id": "yn2-023",
+    "level": 2,
+    "text": "Yo nunca he intentado ligarme al/la DJ de una fiesta."
+  },
+  {
+    "id": "yn2-024",
+    "level": 2,
+    "text": "Yo nunca he bailado con un desconocido/a solo para no quedarme solo/a en la pista."
+  },
+  {
+    "id": "yn2-025",
+    "level": 2,
+    "text": "Yo nunca he comprado algo random en un chino a las 4 de la mañana."
+  },
+  {
+    "id": "yn2-026",
+    "level": 2,
+    "text": "Yo nunca he tenido que pedir dinero prestado para pagar el taxi de vuelta."
+  },
+  {
+    "id": "yn2-027",
+    "level": 2,
+    "text": "Yo nunca he cambiado de planes a última hora porque otra fiesta sonaba mejor."
+  },
+  {
+    "id": "yn2-028",
+    "level": 2,
+    "text": "Yo nunca me he ido de una fiesta antes de la una de la madrugada."
+  },
+  {
+    "id": "yn2-029",
+    "level": 2,
+    "text": "Yo nunca he bailado descalzo/a en una discoteca porque me dolían los pies."
+  },
+  {
+    "id": "yn2-030",
+    "level": 2,
+    "text": "Yo nunca le he pedido la misma canción al DJ dos veces en una noche."
+  },
+  {
+    "id": "yn2-031",
+    "level": 2,
+    "text": "Yo nunca he brindado tan fuerte que se me ha caído la bebida encima."
+  },
+  {
+    "id": "yn2-032",
+    "level": 2,
+    "text": "Yo nunca he intentado ligar y me han soltado que tenían pareja."
+  },
+  {
+    "id": "yn2-033",
+    "level": 2,
+    "text": "Yo nunca me he pasado el día siguiente entero en la cama por la resaca."
+  },
+  {
+    "id": "yn2-034",
+    "level": 2,
+    "text": "Yo nunca he tenido que preguntarle a un desconocido/a cómo volver a casa."
+  },
+  {
+    "id": "yn3-001",
+    "level": 3,
+    "text": "Yo nunca he estado enamorado/a de alguien de este grupo."
+  },
+  {
+    "id": "yn3-002",
+    "level": 3,
+    "text": "Yo nunca he leído los mensajes del móvil de mi pareja."
+  },
+  {
+    "id": "yn3-003",
+    "level": 3,
+    "text": "Yo nunca he vuelto con un ex."
+  },
+  {
+    "id": "yn3-004",
+    "level": 3,
+    "text": "Yo nunca he dicho 'te quiero' sin sentirlo."
+  },
+  {
+    "id": "yn3-005",
+    "level": 3,
+    "text": "Yo nunca he tenido celos de un amigo/a."
+  },
+  {
+    "id": "yn3-006",
+    "level": 3,
+    "text": "Yo nunca he mentido en este juego."
+  },
+  {
+    "id": "yn3-007",
+    "level": 3,
+    "text": "Yo nunca he guardado capturas de una conversación para enseñárselas a otro."
+  },
+  {
+    "id": "yn3-008",
+    "level": 3,
+    "text": "Yo nunca he hablado mal de alguien que está aquí."
+  },
+  {
+    "id": "yn3-009",
+    "level": 3,
+    "text": "Yo nunca he mentido sobre por qué no salí con el grupo."
+  },
+  {
+    "id": "yn3-010",
+    "level": 3,
+    "text": "Yo nunca he guardado un secreto importante de alguien del grupo."
+  },
+  {
+    "id": "yn3-011",
+    "level": 3,
+    "text": "Yo nunca he envidiado la vida o los logros de alguien de este grupo."
+  },
+  {
+    "id": "yn3-012",
+    "level": 3,
+    "text": "Yo nunca he sentido que no encajo del todo en este grupo."
+  },
+  {
+    "id": "yn3-013",
+    "level": 3,
+    "text": "Yo nunca he mentido sobre una anécdota para quedar mejor delante del grupo."
+  },
+  {
+    "id": "yn3-014",
+    "level": 3,
+    "text": "Yo nunca he sentido que alguien de este grupo me juzga en secreto."
+  },
+  {
+    "id": "yn3-015",
+    "level": 3,
+    "text": "Yo nunca he ocultado un error que cometí con alguien de este grupo."
+  },
+  {
+    "id": "yn3-016",
+    "level": 3,
+    "text": "Yo nunca he fingido estar de acuerdo con alguien de aquí solo para no discutir."
+  },
+  {
+    "id": "yn3-017",
+    "level": 3,
+    "text": "Yo nunca he stalkeado a la nueva pareja de mi ex."
+  },
+  {
+    "id": "yn3-018",
+    "level": 3,
+    "text": "Yo nunca he llorado por alguien que no se lo merecía."
+  },
+  {
+    "id": "yn3-019",
+    "level": 3,
+    "text": "Yo nunca he escrito un mensaje larguísimo y lo he borrado sin enviarlo."
+  },
+  {
+    "id": "yn3-020",
+    "level": 3,
+    "text": "Yo nunca he dicho 'estoy bien' estando fatal."
+  },
+  {
+    "id": "yn3-021",
+    "level": 3,
+    "text": "Yo nunca he fingido estar ocupado/a para no ver a alguien."
+  },
+  {
+    "id": "yn3-022",
+    "level": 3,
+    "text": "Yo nunca he tenido miedo de acabar solo/a."
+  },
+  {
+    "id": "yn3-023",
+    "level": 3,
+    "text": "Yo nunca he subido una story solo para que la viera una persona concreta."
+  },
+  {
+    "id": "yn3-024",
+    "level": 3,
+    "text": "Yo nunca he mentido a mis padres sobre con quién estaba."
+  },
+  {
+    "id": "yn3-025",
+    "level": 3,
+    "text": "Yo nunca he sentido vergüenza de mi familia delante de alguien."
+  },
+  {
+    "id": "yn3-026",
+    "level": 3,
+    "text": "Yo nunca he seguido pillado/a por alguien después de que me dejara."
+  },
+  {
+    "id": "yn3-027",
+    "level": 3,
+    "text": "Yo nunca he buscado mi propio nombre en Google."
+  },
+  {
+    "id": "yn3-028",
+    "level": 3,
+    "text": "Yo nunca he guardado algo de un ex que debería haber tirado."
+  },
+  {
+    "id": "yn3-029",
+    "level": 3,
+    "text": "Yo nunca he tardado meses en devolverle dinero a un amigo/a."
+  },
+  {
+    "id": "yn3-030",
+    "level": 3,
+    "text": "Yo nunca he tenido ansiedad por un mensaje en visto."
+  },
+  {
+    "id": "yn3-031",
+    "level": 3,
+    "text": "Yo nunca he releído una conversación antigua con un ex."
+  },
+  {
+    "id": "yn3-032",
+    "level": 3,
+    "text": "Yo nunca he hecho algo solo para dar celos a alguien."
+  },
+  {
+    "id": "yn3-033",
+    "level": 3,
+    "text": "Yo nunca he mentido en mi currículum."
+  },
+  {
+    "id": "yn3-034",
+    "level": 3,
+    "text": "Yo nunca he seguido con alguien por no saber cómo dejarlo."
+  },
+  {
+    "id": "yn3-035",
+    "level": 3,
+    "text": "Yo nunca he hecho captura de una story para enseñársela a otra persona."
+  },
+  {
+    "id": "yn3-036",
+    "level": 3,
+    "text": "Yo nunca he dicho 'te quiero' primero y no me lo han devuelto."
+  },
+  {
+    "id": "yn3-037",
+    "level": 3,
+    "text": "Yo nunca he sentido que mis padres prefieren a mi hermano/a."
+  },
+  {
+    "id": "yn3-038",
+    "level": 3,
+    "text": "Yo nunca he archivado un chat para no ver a esa persona."
+  },
+  {
+    "id": "yn4-001",
+    "level": 4,
+    "text": "Yo nunca he tenido algo con el/la ex de un amigo/a."
+  },
+  {
+    "id": "yn4-002",
+    "level": 4,
+    "text": "Yo nunca he roto con alguien por mensaje."
+  },
+  {
+    "id": "yn4-003",
+    "level": 4,
+    "text": "Yo nunca he sido infiel."
+  },
+  {
+    "id": "yn4-004",
+    "level": 4,
+    "text": "Yo nunca he contado un secreto que me pidieron guardar."
+  },
+  {
+    "id": "yn4-005",
+    "level": 4,
+    "text": "Yo nunca he fingido que me caía bien alguien de este grupo."
+  },
+  {
+    "id": "yn4-006",
+    "level": 4,
+    "text": "Yo nunca he tenido una cuenta secundaria para stalkear."
+  },
+  {
+    "id": "yn4-007",
+    "level": 4,
+    "text": "Yo nunca he dejado a alguien en visto a propósito para hacerle daño."
+  },
+  {
+    "id": "yn4-008",
+    "level": 4,
+    "text": "Yo nunca he mentido a mis amigos sobre dónde estaba."
+  },
+  {
+    "id": "yn4-009",
+    "level": 4,
+    "text": "Yo nunca he leído los mensajes de un amigo/a cuando me ha dejado el móvil."
+  },
+  {
+    "id": "yn4-010",
+    "level": 4,
+    "text": "Yo nunca he ligado con alguien sabiendo que tenía pareja."
+  },
+  {
+    "id": "yn4-011",
+    "level": 4,
+    "text": "Yo nunca le he mentido a la cara hoy a alguien de este grupo."
+  },
+  {
+    "id": "yn4-012",
+    "level": 4,
+    "text": "Yo nunca he dicho algo cruel sabiendo que iba a doler."
+  },
+  {
+    "id": "yn4-013",
+    "level": 4,
+    "text": "Yo nunca he usado a alguien para olvidar a otra persona."
+  },
+  {
+    "id": "yn4-014",
+    "level": 4,
+    "text": "Yo nunca he dejado de hablarle a un amigo/a sin darle explicaciones."
+  },
+  {
+    "id": "yn4-015",
+    "level": 4,
+    "text": "Yo nunca he hecho capturas de un chat privado para reírme con otros."
+  },
+  {
+    "id": "yn4-016",
+    "level": 4,
+    "text": "Yo nunca he robado algo en una tienda."
+  },
+  {
+    "id": "yn4-017",
+    "level": 4,
+    "text": "Yo nunca he dicho que alguien no me gustaba para que mi amigo/a no se lanzara y lanzarme yo."
+  },
+  {
+    "id": "yn4-018",
+    "level": 4,
+    "text": "Yo nunca he tenido algo con alguien solo por despecho."
+  },
+  {
+    "id": "yn4-019",
+    "level": 4,
+    "text": "Yo nunca he hablado con mi ex a escondidas estando con otra persona."
+  },
+  {
+    "id": "yn4-020",
+    "level": 4,
+    "text": "Yo nunca he besado a alguien de este grupo."
+  },
+  {
+    "id": "yn4-021",
+    "level": 4,
+    "text": "Yo nunca le he dicho a mi pareja que estaba con amigos cuando no era verdad."
+  },
+  {
+    "id": "yn4-022",
+    "level": 4,
+    "text": "Yo nunca he leído el diario o las notas privadas de otra persona."
+  },
+  {
+    "id": "yn4-023",
+    "level": 4,
+    "text": "Yo nunca he roto una amistad por culpa de una pareja."
+  },
+  {
+    "id": "yn4-024",
+    "level": 4,
+    "text": "Yo nunca he mentido sobre cuántos ex he tenido."
+  },
+  {
+    "id": "yn4-025",
+    "level": 4,
+    "text": "Yo nunca he deseado que a mi ex le fuera mal."
+  },
+  {
+    "id": "yn4-026",
+    "level": 4,
+    "text": "Yo nunca he ignorado una llamada de mi madre o mi padre para seguir de fiesta."
+  },
+  {
+    "id": "yn4-027",
+    "level": 4,
+    "text": "Yo nunca he dicho algo de alguien de aquí que no repetiría delante de él/ella."
+  },
+  {
+    "id": "yn4-028",
+    "level": 4,
+    "text": "Yo nunca he dicho 'te echo de menos' solo para que me contestaran."
+  },
+  {
+    "id": "yn4-029",
+    "level": 4,
+    "text": "Yo nunca he sido el motivo por el que alguien rompió con su pareja."
+  },
+  {
+    "id": "yn4-030",
+    "level": 4,
+    "text": "Yo nunca he contado un secreto de alguien de este grupo."
+  },
+  {
+    "id": "yn4-031",
+    "level": 4,
+    "text": "Yo nunca me he alegrado en secreto de una ruptura ajena."
+  },
+  {
+    "id": "yn4-032",
+    "level": 4,
+    "text": "Yo nunca he tenido un crush con la pareja de un amigo/a."
+  },
+  {
+    "id": "yn4-033",
+    "level": 4,
+    "text": "Yo nunca he usado un secreto de alguien del grupo como moneda de cambio."
+  },
+  {
+    "id": "yn4-034",
+    "level": 4,
+    "text": "Yo nunca he fingido ser neutral en una pelea del grupo cuando en realidad tomaba partido."
+  },
+  {
+    "id": "yn4-035",
+    "level": 4,
+    "text": "Yo nunca he pensado que el/la tóxico/a del grupo soy yo."
+  },
+  {
+    "id": "yn4-036",
+    "level": 4,
+    "text": "Yo nunca he traicionado a alguien de este grupo."
+  }
+]

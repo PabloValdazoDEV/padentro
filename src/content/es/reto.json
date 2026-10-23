@@ -1,0 +1,574 @@
+[
+  {
+    "id": "r1-001",
+    "level": 1,
+    "text": "Imita a {otro} hasta que alguien adivine a quién imitas."
+  },
+  {
+    "id": "r1-002",
+    "level": 1,
+    "text": "Habla con acento andaluz/argentino/inglés hasta tu próximo turno."
+  },
+  {
+    "id": "r1-003",
+    "level": 1,
+    "text": "Haz 10 sentadillas mientras cantas el estribillo de una canción."
+  },
+  {
+    "id": "r1-004",
+    "level": 1,
+    "text": "Cuenta un chiste. Si nadie se ríe, bebes."
+  },
+  {
+    "id": "r1-005",
+    "level": 1,
+    "text": "Di el abecedario al revés en menos de 30 segundos."
+  },
+  {
+    "id": "r1-006",
+    "level": 1,
+    "text": "Deja que {otro} te ponga un apodo para el resto de la partida."
+  },
+  {
+    "id": "r1-007",
+    "level": 1,
+    "text": "Haz tu mejor imitación de un presentador de telediario anunciando la siguiente ronda."
+  },
+  {
+    "id": "r1-008",
+    "level": 1,
+    "text": "Intercambia un accesorio o prenda (zapatilla, gorra, chaqueta...) con {otro} hasta el final."
+  },
+  {
+    "id": "r1-009",
+    "level": 1,
+    "text": "Haz tu mejor imitación de un animal durante 15 segundos."
+  },
+  {
+    "id": "r1-010",
+    "level": 1,
+    "text": "Canta el estribillo de una canción infantil elegida por el grupo."
+  },
+  {
+    "id": "r1-011",
+    "level": 1,
+    "text": "Deja que {otro} te dibuje un bigote o unas gafas con el dedo en la cara."
+  },
+  {
+    "id": "r1-012",
+    "level": 1,
+    "text": "Di tres palabras en otro idioma y que el grupo adivine qué significan."
+  },
+  {
+    "id": "r1-013",
+    "level": 1,
+    "text": "Haz 15 segundos de baile libre sin música."
+  },
+  {
+    "id": "r1-014",
+    "level": 1,
+    "text": "Deja que {otro} elija una postura rara y mantenla 20 segundos."
+  },
+  {
+    "id": "r1-015",
+    "level": 1,
+    "text": "Di el nombre de todos los presentes al revés lo más rápido que puedas."
+  },
+  {
+    "id": "r1-016",
+    "level": 1,
+    "text": "Ponte un accesorio o una prenda al revés hasta tu próximo turno. Elige el grupo."
+  },
+  {
+    "id": "r1-017",
+    "level": 1,
+    "text": "Inventa un eslogan publicitario para el producto que elija {otro}."
+  },
+  {
+    "id": "r1-018",
+    "level": 1,
+    "text": "Haz el ruido de un electrodoméstico y que adivinen cuál es."
+  },
+  {
+    "id": "r1-019",
+    "level": 1,
+    "text": "Camina por la habitación como si fueras modelo de pasarela durante 15 segundos."
+  },
+  {
+    "id": "r1-020",
+    "level": 1,
+    "text": "Di tres veces seguidas sin fallar un trabalenguas elegido por el grupo."
+  },
+  {
+    "id": "r1-021",
+    "level": 1,
+    "text": "Haz una imitación de cómo te levantas por las mañanas."
+  },
+  {
+    "id": "r1-022",
+    "level": 1,
+    "text": "Enseña tu fondo de pantalla actual y explica por qué lo tienes."
+  },
+  {
+    "id": "r1-023",
+    "level": 1,
+    "text": "Canta 'Cumpleaños feliz' con la voz más aguda que puedas."
+  },
+  {
+    "id": "r1-024",
+    "level": 1,
+    "text": "Haz 10 saltos en el sitio mientras dices tu nombre completo."
+  },
+  {
+    "id": "r1-025",
+    "level": 1,
+    "text": "Pon cara de póker durante 30 segundos sin reírte aunque te provoquen."
+  },
+  {
+    "id": "r1-026",
+    "level": 1,
+    "text": "Inventa un apodo para ti mismo/a y que el grupo lo use hasta el final."
+  },
+  {
+    "id": "r1-027",
+    "level": 1,
+    "text": "Haz una reverencia exagerada a cada persona del grupo."
+  },
+  {
+    "id": "r2-001",
+    "level": 2,
+    "text": "Enseña la última foto de tu galería."
+  },
+  {
+    "id": "r2-002",
+    "level": 2,
+    "text": "Deja que {otro} escriba tu próximo estado de WhatsApp."
+  },
+  {
+    "id": "r2-003",
+    "level": 2,
+    "text": "Llama a alguien de tu familia y dile que le quieres sin dar explicaciones."
+  },
+  {
+    "id": "r2-004",
+    "level": 2,
+    "text": "Haz un baile de TikTok elegido por el grupo."
+  },
+  {
+    "id": "r2-005",
+    "level": 2,
+    "text": "Bebe sin usar las manos.",
+    "alcohol": true
+  },
+  {
+    "id": "r2-006",
+    "level": 2,
+    "text": "Lee en voz alta el último mensaje que te ha enviado tu madre o tu padre."
+  },
+  {
+    "id": "r2-007",
+    "level": 2,
+    "text": "Deja que {otro} te despeine/peine como quiera."
+  },
+  {
+    "id": "r2-008",
+    "level": 2,
+    "text": "Habla solo con preguntas hasta tu próximo turno. Si fallas, bebes."
+  },
+  {
+    "id": "r2-009",
+    "level": 2,
+    "text": "Canta el estribillo de una canción de reggaetón elegida por el grupo."
+  },
+  {
+    "id": "r2-010",
+    "level": 2,
+    "text": "Imita cómo bailas cuando estás solo/a en casa."
+  },
+  {
+    "id": "r2-011",
+    "level": 2,
+    "text": "Haz 10 flexiones diciendo el título de una canción distinta en cada una."
+  },
+  {
+    "id": "r2-012",
+    "level": 2,
+    "text": "Deja que el grupo elija una pose de 'foto de fiesta' y mantenla 15 segundos."
+  },
+  {
+    "id": "r2-013",
+    "level": 2,
+    "text": "Di tres piropos absurdos a {otro} sin reírte."
+  },
+  {
+    "id": "r2-014",
+    "level": 2,
+    "text": "Enseña la última story que has subido y explica por qué la elegiste."
+  },
+  {
+    "id": "r2-015",
+    "level": 2,
+    "text": "Canta una canción de los 2000 con la voz más gangosa posible."
+  },
+  {
+    "id": "r2-016",
+    "level": 2,
+    "text": "Inventa un grito de guerra para el grupo y grítalo tres veces."
+  },
+  {
+    "id": "r2-017",
+    "level": 2,
+    "text": "Imita a alguien pidiendo en la barra de una discoteca llena."
+  },
+  {
+    "id": "r2-018",
+    "level": 2,
+    "text": "Manda un sticker random a tu chat más reciente y no des explicaciones."
+  },
+  {
+    "id": "r2-019",
+    "level": 2,
+    "text": "Canta el estribillo de una canción al revés lo mejor que puedas."
+  },
+  {
+    "id": "r2-020",
+    "level": 2,
+    "text": "Deja que {otro} elija una canción y báilala a cámara lenta."
+  },
+  {
+    "id": "r2-021",
+    "level": 2,
+    "text": "Enseña tu playlist más vergonzosa."
+  },
+  {
+    "id": "r2-022",
+    "level": 2,
+    "text": "Inventa un brindis absurdo y dedícaselo a todo el grupo.",
+    "alcohol": true
+  },
+  {
+    "id": "r2-023",
+    "level": 2,
+    "text": "Deja que el grupo te dibuje un 'tatuaje' en el brazo con un boli."
+  },
+  {
+    "id": "r2-024",
+    "level": 2,
+    "text": "Canta 'La Macarena' imitando solo los instrumentos."
+  },
+  {
+    "id": "r2-025",
+    "level": 2,
+    "text": "Haz 15 segundos de guitarra imaginaria con una canción que elija {otro}."
+  },
+  {
+    "id": "r2-026",
+    "level": 2,
+    "text": "Di tres excusas ridículas para llegar tarde a una fiesta."
+  },
+  {
+    "id": "r2-027",
+    "level": 2,
+    "text": "Ponte los cascos con la canción que elija {otro} y baila sin que los demás la oigan."
+  },
+  {
+    "id": "r2-028",
+    "level": 2,
+    "text": "Imita cómo intentas pedir un taxi a las 5 de la mañana."
+  },
+  {
+    "id": "r3-001",
+    "level": 3,
+    "text": "Deja que el grupo lea tus últimos 5 chats (solo la lista)."
+  },
+  {
+    "id": "r3-002",
+    "level": 3,
+    "text": "Manda un audio a tu último contacto de WhatsApp cantando lo que el grupo elija."
+  },
+  {
+    "id": "r3-003",
+    "level": 3,
+    "text": "Di en voz alta el nombre de la última persona que has stalkeado."
+  },
+  {
+    "id": "r3-004",
+    "level": 3,
+    "text": "Enseña tu tiempo de pantalla de esta semana."
+  },
+  {
+    "id": "r3-005",
+    "level": 3,
+    "text": "Dile a {otro} tres cosas que te gustan de verdad de él/ella, mirándole a los ojos."
+  },
+  {
+    "id": "r3-006",
+    "level": 3,
+    "text": "Deja que {otro} mire tu galería durante 10 segundos."
+  },
+  {
+    "id": "r3-007",
+    "level": 3,
+    "text": "Sube una story que elija el grupo y no la borres en 1 hora."
+  },
+  {
+    "id": "r3-008",
+    "level": 3,
+    "text": "Llama a alguien y pídele perdón por algo, sin explicar por qué."
+  },
+  {
+    "id": "r3-009",
+    "level": 3,
+    "text": "Di a {otro} qué es lo que más te molesta de su forma de ser."
+  },
+  {
+    "id": "r3-010",
+    "level": 3,
+    "text": "Mira a {otro} a los ojos y dile una inseguridad tuya que casi nadie sabe."
+  },
+  {
+    "id": "r3-011",
+    "level": 3,
+    "text": "Dile a {otro} qué opinas de verdad de su última relación, sin filtro."
+  },
+  {
+    "id": "r3-012",
+    "level": 3,
+    "text": "Dile a {otro} algo que hayas pensado de él/ella y nunca te hayas atrevido a decir."
+  },
+  {
+    "id": "r3-013",
+    "level": 3,
+    "text": "Dile a {otro} qué cambio has notado en él/ella que no te ha gustado."
+  },
+  {
+    "id": "r3-014",
+    "level": 3,
+    "text": "Mira a {otro} y dile qué cosa crees que piensa de ti y en qué se equivoca."
+  },
+  {
+    "id": "r3-015",
+    "level": 3,
+    "text": "Enseña la última foto de tu papelera de fotos borradas."
+  },
+  {
+    "id": "r3-016",
+    "level": 3,
+    "text": "Enseña tu lista de 'Mejores amigos' de Instagram."
+  },
+  {
+    "id": "r3-017",
+    "level": 3,
+    "text": "Deja que {otro} lea en voz alta tus últimas 5 búsquedas de Instagram o TikTok."
+  },
+  {
+    "id": "r3-018",
+    "level": 3,
+    "text": "Deja el móvil boca arriba en el centro: la próxima notificación que te llegue la lee el grupo en voz alta."
+  },
+  {
+    "id": "r3-019",
+    "level": 3,
+    "text": "Enseña los últimos 5 mensajes de tu chat fijado más arriba."
+  },
+  {
+    "id": "r3-020",
+    "level": 3,
+    "text": "Imita a tu ex o a tu último ligue durante 30 segundos, sin decir su nombre."
+  },
+  {
+    "id": "r3-021",
+    "level": 3,
+    "text": "Deja que {otro} elija tu fondo de pantalla de entre tus fotos hasta mañana."
+  },
+  {
+    "id": "r3-022",
+    "level": 3,
+    "text": "Escribe en una nota del móvil lo que piensas de verdad de {otro} y dásela a leer."
+  },
+  {
+    "id": "r3-023",
+    "level": 3,
+    "text": "Envía 'me acuerdo mucho de ti' a la quinta persona de tu WhatsApp y no expliques nada en 10 minutos."
+  },
+  {
+    "id": "r3-024",
+    "level": 3,
+    "text": "Enseña la última captura de pantalla que hiciste."
+  },
+  {
+    "id": "r3-025",
+    "level": 3,
+    "text": "Abre Instagram y enseña cuál ha sido tu último 'me gusta'."
+  },
+  {
+    "id": "r3-026",
+    "level": 3,
+    "text": "Abraza a {otro} durante 20 segundos sin reírte."
+  },
+  {
+    "id": "r3-027",
+    "level": 3,
+    "text": "Haz una videollamada de 30 segundos a quien elija el grupo de entre tus chats recientes."
+  },
+  {
+    "id": "r3-028",
+    "level": 3,
+    "text": "Pon en voz alta el último audio que has enviado."
+  },
+  {
+    "id": "r3-029",
+    "level": 3,
+    "text": "Dile a {otro} un cumplido sincero y una crítica sincera, en ese orden."
+  },
+  {
+    "id": "r3-030",
+    "level": 3,
+    "text": "Abre tus notas del móvil: el grupo elige una y la lees en voz alta."
+  },
+  {
+    "id": "r3-031",
+    "level": 3,
+    "text": "Enseña tu historial de YouTube o TikTok de hoy."
+  },
+  {
+    "id": "r4-001",
+    "level": 4,
+    "text": "Deja que el grupo mande un mensaje (sin pasarse) desde tu móvil a quien elija."
+  },
+  {
+    "id": "r4-002",
+    "level": 4,
+    "text": "Escribe 'te echo de menos' a tu ex... o bebe 5 tragos."
+  },
+  {
+    "id": "r4-003",
+    "level": 4,
+    "text": "Cambia tu foto de perfil por una que elija el grupo durante 24 horas."
+  },
+  {
+    "id": "r4-004",
+    "level": 4,
+    "text": "Lee en voz alta tu último mensaje con tu crush o tu pareja."
+  },
+  {
+    "id": "r4-005",
+    "level": 4,
+    "text": "Deja que {otro} publique lo que quiera en tus stories (lo podéis revisar antes)."
+  },
+  {
+    "id": "r4-006",
+    "level": 4,
+    "text": "Llama a un número de tu agenda que no uses desde hace más de un año y mantén la conversación 1 minuto."
+  },
+  {
+    "id": "r4-007",
+    "level": 4,
+    "text": "Di una verdad incómoda a cada persona del grupo."
+  },
+  {
+    "id": "r4-008",
+    "level": 4,
+    "text": "Entrega tu móvil desbloqueado a {otro} durante 1 minuto."
+  },
+  {
+    "id": "r4-009",
+    "level": 4,
+    "text": "Lee en voz alta el último mensaje que hayas mandado hablando de alguien de este grupo."
+  },
+  {
+    "id": "r4-010",
+    "level": 4,
+    "text": "Busca el nombre de {otro} en WhatsApp y lee el último mensaje en el que hablas de él/ella con otra persona."
+  },
+  {
+    "id": "r4-011",
+    "level": 4,
+    "text": "Deja que el grupo lea tus últimos 10 mensajes con la persona que elijan de tus chats recientes."
+  },
+  {
+    "id": "r4-012",
+    "level": 4,
+    "text": "Manda 'tenemos que hablar' a quien elija el grupo y no le expliques que es un juego hasta dentro de 5 minutos."
+  },
+  {
+    "id": "r4-013",
+    "level": 4,
+    "text": "Llama a tu ex y pregúntale qué tal está. Aguanta al menos 1 minuto."
+  },
+  {
+    "id": "r4-014",
+    "level": 4,
+    "text": "Deja que el grupo cambie el nombre de uno de tus contactos durante una semana."
+  },
+  {
+    "id": "r4-015",
+    "level": 4,
+    "text": "Deja que {otro} conteste como quiera tu próximo mensaje de WhatsApp (el grupo lo revisa antes de enviar)."
+  },
+  {
+    "id": "r4-016",
+    "level": 4,
+    "text": "Da tu móvil a {otro} y que lea en voz alta los nombres de tus chats archivados."
+  },
+  {
+    "id": "r4-017",
+    "level": 4,
+    "text": "Sube a tu story una foto tuya de hace 5 años elegida por el grupo y déjala 1 hora."
+  },
+  {
+    "id": "r4-018",
+    "level": 4,
+    "text": "Comenta '😍' en la última foto de tu ex o de tu último ligue."
+  },
+  {
+    "id": "r4-019",
+    "level": 4,
+    "text": "Dale 'me gusta' a una foto de hace más de 2 años de la persona que elija el grupo."
+  },
+  {
+    "id": "r4-020",
+    "level": 4,
+    "text": "Manda un audio cantando a tu grupo de WhatsApp con más gente. La canción la elige el grupo."
+  },
+  {
+    "id": "r4-021",
+    "level": 4,
+    "text": "Pulsa el buscador de Instagram y deja que el grupo vea tus búsquedas recientes."
+  },
+  {
+    "id": "r4-022",
+    "level": 4,
+    "text": "Llama a tu madre o a tu padre y cuéntale algo de ti que no sepa."
+  },
+  {
+    "id": "r4-023",
+    "level": 4,
+    "text": "Escribe a quien elija el grupo lo que de verdad piensas de él/ella. Lo redactáis entre todos."
+  },
+  {
+    "id": "r4-024",
+    "level": 4,
+    "text": "Enseña tu historial de llamadas de la última semana."
+  },
+  {
+    "id": "r4-025",
+    "level": 4,
+    "text": "Llama a quien elija el grupo de tus contactos e invítale a venir ahora mismo."
+  },
+  {
+    "id": "r4-026",
+    "level": 4,
+    "text": "Abre el chat con la persona con la que más hablas y deja que el grupo suba hasta el primer mensaje."
+  },
+  {
+    "id": "r4-027",
+    "level": 4,
+    "text": "Deja que {otro} mire tus 'Me gusta' de TikTok durante 30 segundos."
+  },
+  {
+    "id": "r4-028",
+    "level": 4,
+    "text": "Enseña la última conversación que borraste o archivaste y explica por qué."
+  }
+]

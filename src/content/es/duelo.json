@@ -1,0 +1,337 @@
+[
+  {
+    "id": "d1-001",
+    "level": 1,
+    "text": "{jugador} contra {otro}: piedra, papel o tijera. Al mejor de 3."
+  },
+  {
+    "id": "d1-002",
+    "level": 1,
+    "text": "{jugador} contra {otro}: el primero que se ría pierde. Miraos a los ojos."
+  },
+  {
+    "id": "d1-003",
+    "level": 1,
+    "text": "{jugador} contra {otro}: decid marcas de cerveza por turnos. El primero que se quede en blanco pierde."
+  },
+  {
+    "id": "d1-004",
+    "level": 1,
+    "text": "{jugador} contra {otro}: pulso chino (pulgares)."
+  },
+  {
+    "id": "d1-005",
+    "level": 1,
+    "text": "{jugador} contra {otro}: el primero que diga 5 frutas que empiecen por M gana."
+  },
+  {
+    "id": "d1-006",
+    "level": 1,
+    "text": "{jugador} contra {otro}: los dos con un pie en el aire. El que lo baje primero pierde."
+  },
+  {
+    "id": "d1-007",
+    "level": 1,
+    "text": "{jugador} contra {otro}: decid capitales de Europa por turnos. El que se quede en blanco pierde."
+  },
+  {
+    "id": "d1-008",
+    "level": 1,
+    "text": "{jugador} contra {otro}: el grupo vota quién pone la mejor cara de enfadado/a. 5 segundos cada uno."
+  },
+  {
+    "id": "d1-009",
+    "level": 1,
+    "text": "{jugador} contra {otro}: decid marcas de coche por turnos. El que repita o se quede en blanco pierde."
+  },
+  {
+    "id": "d1-010",
+    "level": 1,
+    "text": "{jugador} contra {otro}: mirada fija. El primero que parpadee pierde."
+  },
+  {
+    "id": "d1-011",
+    "level": 1,
+    "text": "{jugador} contra {otro}: el primero que toque algo azul de la habitación gana."
+  },
+  {
+    "id": "d1-012",
+    "level": 1,
+    "text": "{jugador} contra {otro}: decid series españolas por turnos. El que repita o se quede en blanco pierde."
+  },
+  {
+    "id": "d1-013",
+    "level": 1,
+    "text": "{jugador} contra {otro}: el que diga más provincias de España en 15 segundos gana."
+  },
+  {
+    "id": "d1-014",
+    "level": 1,
+    "text": "{jugador} contra {otro}: decid superhéroes por turnos. El que se quede en blanco pierde."
+  },
+  {
+    "id": "d1-015",
+    "level": 1,
+    "text": "{jugador} contra {otro}: el primero que diga 3 países que empiecen por C gana."
+  },
+  {
+    "id": "d1-016",
+    "level": 1,
+    "text": "{jugador} contra {otro}: el grupo vota quién camina más raro. 5 pasos cada uno."
+  },
+  {
+    "id": "d1-017",
+    "level": 1,
+    "text": "{jugador} contra {otro}: sacad la lengua. El primero que la meta pierde."
+  },
+  {
+    "id": "d1-018",
+    "level": 1,
+    "text": "{jugador} contra {otro}: el que diga más instrumentos musicales en 12 segundos gana."
+  },
+  {
+    "id": "d1-019",
+    "level": 1,
+    "text": "{jugador} contra {otro}: el grupo vota quién imita mejor a una gallina. 5 segundos cada uno."
+  },
+  {
+    "id": "d2-001",
+    "level": 2,
+    "text": "{jugador} contra {otro}: ¿quién sabe más cumpleaños del grupo? Empezad."
+  },
+  {
+    "id": "d2-002",
+    "level": 2,
+    "text": "{jugador} contra {otro}: decid películas de Disney por turnos. El que repita o se quede en blanco, pierde."
+  },
+  {
+    "id": "d2-003",
+    "level": 2,
+    "text": "{jugador} contra {otro}: el grupo vota quién baila peor. 10 segundos cada uno."
+  },
+  {
+    "id": "d2-004",
+    "level": 2,
+    "text": "{jugador} contra {otro}: el que tenga menos batería pierde."
+  },
+  {
+    "id": "d2-005",
+    "level": 2,
+    "text": "{jugador} contra {otro}: el que tenga más notificaciones sin leer pierde."
+  },
+  {
+    "id": "d2-006",
+    "level": 2,
+    "text": "{jugador} contra {otro}: el grupo vota quién tiene peor cara de resaca. 5 segundos de pose cada uno."
+  },
+  {
+    "id": "d2-007",
+    "level": 2,
+    "text": "{jugador} contra {otro}: enseñad la última foto de fiesta del móvil. El grupo decide cuál es más caótica."
+  },
+  {
+    "id": "d2-008",
+    "level": 2,
+    "text": "{jugador} contra {otro}: el grupo vota quién baila peor. 8 segundos de discoteca cada uno."
+  },
+  {
+    "id": "d2-009",
+    "level": 2,
+    "text": "{jugador} contra {otro}: decid discotecas o bares por turnos. El que repita o se quede en blanco pierde."
+  },
+  {
+    "id": "d2-010",
+    "level": 2,
+    "text": "{jugador} contra {otro}: el que tenga menos apps de redes sociales instaladas pierde."
+  },
+  {
+    "id": "d2-011",
+    "level": 2,
+    "text": "{jugador} contra {otro}: brazo en alto como en un brindis. El que lo baje primero pierde."
+  },
+  {
+    "id": "d2-012",
+    "level": 2,
+    "text": "{jugador} contra {otro}: contad una anécdota de fiesta en 15 segundos. El grupo vota la peor contada."
+  },
+  {
+    "id": "d2-013",
+    "level": 2,
+    "text": "{jugador} contra {otro}: poned el último audio que os han mandado. El grupo decide cuál es más random."
+  },
+  {
+    "id": "d2-014",
+    "level": 2,
+    "text": "{jugador} contra {otro}: el primero que encuentre algo que sirva de micrófono y cante gana."
+  },
+  {
+    "id": "d2-015",
+    "level": 2,
+    "text": "{jugador} contra {otro}: decid festivales por turnos. El que repita o se quede en blanco pierde."
+  },
+  {
+    "id": "d2-016",
+    "level": 2,
+    "text": "{jugador} contra {otro}: bailad en el sitio con los ojos cerrados. El primero que los abra pierde."
+  },
+  {
+    "id": "d2-017",
+    "level": 2,
+    "text": "{jugador} contra {otro}: el primero que diga 3 canciones que siempre suenan a las 4 de la mañana gana."
+  },
+  {
+    "id": "d3-001",
+    "level": 3,
+    "text": "{jugador} contra {otro}: el grupo vota quién liga más. Pierde el menos votado."
+  },
+  {
+    "id": "d3-002",
+    "level": 3,
+    "text": "{jugador} contra {otro}: ¿quién conoce mejor a {jugador}? El grupo hace 3 preguntas."
+  },
+  {
+    "id": "d3-003",
+    "level": 3,
+    "text": "{jugador} contra {otro}: el grupo vota quién es más dramático/a."
+  },
+  {
+    "id": "d3-004",
+    "level": 3,
+    "text": "{jugador} contra {otro}: enseñad el último chat abierto. El grupo decide cuál es peor."
+  },
+  {
+    "id": "d3-005",
+    "level": 3,
+    "text": "{jugador} contra {otro}: decid por turnos nombres de gente con la que habéis ligado. El primero que se quede en blanco pierde."
+  },
+  {
+    "id": "d3-006",
+    "level": 3,
+    "text": "{jugador} contra {otro}: enseñad vuestro último 'me gusta' de Instagram. El grupo decide cuál es más comprometedor."
+  },
+  {
+    "id": "d3-007",
+    "level": 3,
+    "text": "{jugador} contra {otro}: decid por turnos cosas que os gustan del otro/a. El primero que se quede en blanco o se ría pierde."
+  },
+  {
+    "id": "d3-008",
+    "level": 3,
+    "text": "{jugador} contra {otro}: el que haya tenido más citas este año pierde."
+  },
+  {
+    "id": "d3-009",
+    "level": 3,
+    "text": "{jugador} contra {otro}: enseñad vuestro chat fijado. El grupo vota cuál es más sospechoso."
+  },
+  {
+    "id": "d3-010",
+    "level": 3,
+    "text": "{jugador} contra {otro}: cada uno adivina el crush famoso del otro/a. Quien falle pierde."
+  },
+  {
+    "id": "d3-011",
+    "level": 3,
+    "text": "{jugador} contra {otro}: mirada fija a un palmo de distancia durante 30 segundos. El primero que aparte la vista o se ría pierde."
+  },
+  {
+    "id": "d3-012",
+    "level": 3,
+    "text": "{jugador} contra {otro}: enseñad la última persona a la que habéis escrito. Pierde quien tenga que dar más explicaciones."
+  },
+  {
+    "id": "d3-013",
+    "level": 3,
+    "text": "{jugador} contra {otro}: el que tenga más fotos con su ex en la galería pierde."
+  },
+  {
+    "id": "d3-014",
+    "level": 3,
+    "text": "{jugador} contra {otro}: decid por turnos excusas para dejar a alguien. El primero que se quede en blanco pierde."
+  },
+  {
+    "id": "d3-015",
+    "level": 3,
+    "text": "{jugador} contra {otro}: haced una declaración de amor dramática a alguien del grupo. El grupo vota la menos convincente."
+  },
+  {
+    "id": "d4-001",
+    "level": 4,
+    "text": "{jugador} contra {otro}: el grupo vota quién es más falso/a."
+  },
+  {
+    "id": "d4-002",
+    "level": 4,
+    "text": "{jugador} contra {otro}: cada uno dice un secreto del otro. El más jugoso gana."
+  },
+  {
+    "id": "d4-003",
+    "level": 4,
+    "text": "{jugador} contra {otro}: el grupo vota quién tiene peor gusto para elegir pareja."
+  },
+  {
+    "id": "d4-004",
+    "level": 4,
+    "text": "{jugador} contra {otro}: el que tenga más ex bebe. Si empatan, los dos."
+  },
+  {
+    "id": "d4-005",
+    "level": 4,
+    "text": "{jugador} contra {otro}: el grupo elige un chat de cada uno y lo lee 10 segundos. Pierde el chat más turbio."
+  },
+  {
+    "id": "d4-006",
+    "level": 4,
+    "text": "{jugador} contra {otro}: decid por turnos defectos del otro/a. El primero que se quede en blanco o se ofenda pierde."
+  },
+  {
+    "id": "d4-007",
+    "level": 4,
+    "text": "{jugador} contra {otro}: el grupo dice una fecha al azar y abrís la galería en ese día. La foto más vergonzosa pierde."
+  },
+  {
+    "id": "d4-008",
+    "level": 4,
+    "text": "{jugador} contra {otro}: enseñad vuestras últimas 3 búsquedas. El grupo decide cuáles son más turbias."
+  },
+  {
+    "id": "d4-009",
+    "level": 4,
+    "text": "{jugador} contra {otro}: contad en 20 segundos la peor cosa que habéis hecho por amor. El grupo vota quién pierde."
+  },
+  {
+    "id": "d4-010",
+    "level": 4,
+    "text": "{jugador} contra {otro}: el grupo vota quién tiene el historial amoroso más desastroso. Cada uno se defiende 15 segundos."
+  },
+  {
+    "id": "d4-011",
+    "level": 4,
+    "text": "{jugador} contra {otro}: los dos con el móvil boca arriba en la mesa. El primero que reciba una notificación la lee en voz alta y pierde."
+  },
+  {
+    "id": "d4-012",
+    "level": 4,
+    "text": "{jugador} contra {otro}: decid la verdad más dura que os atreváis sobre el otro/a. El grupo vota quién se ha cortado más."
+  },
+  {
+    "id": "d4-013",
+    "level": 4,
+    "text": "{jugador} contra {otro}: enseñad el último mensaje que habéis mandado a un ex o a un ligue. Pierde el más desesperado."
+  },
+  {
+    "id": "d4-014",
+    "level": 4,
+    "text": "{jugador} contra {otro}: cada uno dice con quién del grupo se iría de viaje. Si no os elegís mutuamente, perdéis los dos."
+  },
+  {
+    "id": "d4-015",
+    "level": 4,
+    "text": "{jugador} contra {otro}: decid por turnos cosas que nunca le contaríais a vuestros padres. El primero que se quede en blanco pierde."
+  },
+  {
+    "id": "d4-016",
+    "level": 4,
+    "text": "{jugador} contra {otro}: el grupo vota quién es más probable que acabe con alguien de este grupo. Pierde el más votado."
+  }
+]

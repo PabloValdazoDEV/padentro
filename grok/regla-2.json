@@ -1,0 +1,11 @@
+[
+  {"level": 2, "text": "Prohibido decir 'resaca'. Quien lo diga, bebe."},
+  {"level": 2, "text": "Cada vez que alguien diga 'mañana', bebe."},
+  {"level": 2, "text": "Cada vez que alguien diga 'Instagram', bebe."},
+  {"level": 2, "text": "{jugador} es el/la DJ: cuando grite '¡sube!', todos levantan los brazos. El último bebe."},
+  {"level": 2, "text": "{jugador} es el/la portero/a: hay que pedirle permiso para ir al baño. Si no, bebes."},
+  {"level": 2, "text": "{jugador} es el/la fotógrafo/a: cuando diga '¡pose!', todos posan. El último bebe."},
+  {"level": 2, "text": "Antes de beber hay que hacer el gesto rockero con la mano. Si se te olvida, otro trago.", "alcohol": true},
+  {"level": 2, "text": "Hay que terminar cada frase con 'tío' o 'tía'. Quien se olvide, bebe."},
+  {"level": 2, "text": "Cada vez que alguien beba, hay que decir '¡qué fuerte!'. Quien no lo diga, bebe.", "alcohol": true}
+]

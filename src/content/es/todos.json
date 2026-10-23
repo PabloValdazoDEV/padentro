@@ -1,0 +1,446 @@
+[
+  {
+    "id": "t1-001",
+    "level": 1,
+    "text": "Todos los que lleven algo negro beben un trago."
+  },
+  {
+    "id": "t1-002",
+    "level": 1,
+    "text": "El/la más joven del grupo reparte 2 tragos."
+  },
+  {
+    "id": "t1-003",
+    "level": 1,
+    "text": "Todos los que tengan hermanos beben."
+  },
+  {
+    "id": "t1-004",
+    "level": 1,
+    "text": "Brindis: todos beben por {jugador}.",
+    "alcohol": true
+  },
+  {
+    "id": "t1-005",
+    "level": 1,
+    "text": "Todos los que lleven vaqueros beben un trago."
+  },
+  {
+    "id": "t1-006",
+    "level": 1,
+    "text": "Todos los que tengan el móvil sobre la mesa beben."
+  },
+  {
+    "id": "t1-007",
+    "level": 1,
+    "text": "Todos señalan a quien creen que se levanta más tarde. El más señalado bebe."
+  },
+  {
+    "id": "t1-008",
+    "level": 1,
+    "text": "El/la que tenga el pelo más largo reparte 2 tragos."
+  },
+  {
+    "id": "t1-009",
+    "level": 1,
+    "text": "El último en ponerse de pie bebe 2 tragos."
+  },
+  {
+    "id": "t1-010",
+    "level": 1,
+    "text": "Todos los que tengan mascota beben un trago."
+  },
+  {
+    "id": "t1-011",
+    "level": 1,
+    "text": "Todos señalan a quien creen que cocina peor. El más señalado bebe."
+  },
+  {
+    "id": "t1-012",
+    "level": 1,
+    "text": "El primero en decir un país que empiece por 'P' reparte 2 tragos."
+  },
+  {
+    "id": "t1-013",
+    "level": 1,
+    "text": "Todos los que se hayan terminado una serie esta semana beben un trago."
+  },
+  {
+    "id": "t1-014",
+    "level": 1,
+    "text": "El/la que viva más lejos de aquí reparte 2 tragos."
+  },
+  {
+    "id": "t1-015",
+    "level": 1,
+    "text": "Todos los que hayan comido pizza esta semana beben."
+  },
+  {
+    "id": "t1-016",
+    "level": 1,
+    "text": "Todos los que sepan silbar beben un trago."
+  },
+  {
+    "id": "t1-017",
+    "level": 1,
+    "text": "Todos los que lleven gafas (aunque sean de sol) beben."
+  },
+  {
+    "id": "t1-018",
+    "level": 1,
+    "text": "El primero en decir una palabra de más de 10 letras reparte 2 tragos."
+  },
+  {
+    "id": "t1-019",
+    "level": 1,
+    "text": "El último en poner las manos en la cabeza bebe 2 tragos."
+  },
+  {
+    "id": "t1-020",
+    "level": 1,
+    "text": "Todos señalan a quien se ríe con más facilidad. El más señalado bebe."
+  },
+  {
+    "id": "t1-021",
+    "level": 1,
+    "text": "Todos los que hayan cogido un avión este año beben un trago."
+  },
+  {
+    "id": "t1-022",
+    "level": 1,
+    "text": "Brindis: todos beben por quien tenga el nombre más largo.",
+    "alcohol": true
+  },
+  {
+    "id": "t1-023",
+    "level": 1,
+    "text": "Todos los que hayan nacido en invierno beben un trago."
+  },
+  {
+    "id": "t1-024",
+    "level": 1,
+    "text": "Categorías: por turnos, decid frutas. Quien repita o se quede en blanco bebe."
+  },
+  {
+    "id": "t1-025",
+    "level": 1,
+    "text": "Todos los que lleven las uñas pintadas beben."
+  },
+  {
+    "id": "t2-001",
+    "level": 2,
+    "text": "Todos los que estén solteros beben."
+  },
+  {
+    "id": "t2-002",
+    "level": 2,
+    "text": "Último en tocarse la nariz bebe 2 tragos."
+  },
+  {
+    "id": "t2-003",
+    "level": 2,
+    "text": "Todos los que hayan tenido resaca esta semana beben."
+  },
+  {
+    "id": "t2-004",
+    "level": 2,
+    "text": "Cascada: empieza {jugador} y nadie para hasta que pare quien tiene a su derecha.",
+    "alcohol": true
+  },
+  {
+    "id": "t2-005",
+    "level": 2,
+    "text": "Todos los que hayan salido de fiesta este mes beben un trago."
+  },
+  {
+    "id": "t2-006",
+    "level": 2,
+    "text": "El último en tocarse el codo bebe 2 tragos."
+  },
+  {
+    "id": "t2-007",
+    "level": 2,
+    "text": "Todos señalan a quien más se lía en las fiestas. El más señalado bebe."
+  },
+  {
+    "id": "t2-008",
+    "level": 2,
+    "text": "Todos los que hayan subido una story esta semana beben."
+  },
+  {
+    "id": "t2-009",
+    "level": 2,
+    "text": "El primero en decir una canción de reggaetón reparte 2 tragos."
+  },
+  {
+    "id": "t2-010",
+    "level": 2,
+    "text": "El último en levantar un pie del suelo bebe 2 tragos."
+  },
+  {
+    "id": "t2-011",
+    "level": 2,
+    "text": "Todos señalan a quien más baila en las fiestas. El más señalado bebe."
+  },
+  {
+    "id": "t2-012",
+    "level": 2,
+    "text": "Todos los que hayan llegado a casa después de las 5 este mes beben un trago."
+  },
+  {
+    "id": "t2-013",
+    "level": 2,
+    "text": "El/la que más tarde se haya acostado esta semana reparte 2 tragos."
+  },
+  {
+    "id": "t2-014",
+    "level": 2,
+    "text": "El primero en imitar un baile de TikTok reparte 2 tragos."
+  },
+  {
+    "id": "t2-015",
+    "level": 2,
+    "text": "Todos los que hayan dejado a alguien en visto a propósito esta semana beben."
+  },
+  {
+    "id": "t2-016",
+    "level": 2,
+    "text": "El primero en decir una marca de cerveza reparte 2 tragos."
+  },
+  {
+    "id": "t2-017",
+    "level": 2,
+    "text": "El último en poner una mano en el hombro de alguien bebe 2 tragos."
+  },
+  {
+    "id": "t2-018",
+    "level": 2,
+    "text": "Todos señalan a quien más se inventa las historias de fiesta. El más señalado bebe."
+  },
+  {
+    "id": "t2-019",
+    "level": 2,
+    "text": "El/la que menos haya dormido anoche reparte 2 tragos."
+  },
+  {
+    "id": "t2-020",
+    "level": 2,
+    "text": "Categorías: {jugador} elige un tema (marcas de ropa, futbolistas...) y por turnos decís cosas. Quien se quede en blanco bebe 2 tragos."
+  },
+  {
+    "id": "t2-021",
+    "level": 2,
+    "text": "Todos los que hayan ido a un festival este año beben."
+  },
+  {
+    "id": "t2-022",
+    "level": 2,
+    "text": "Todos los que hayan ligado por Instagram alguna vez beben un trago."
+  },
+  {
+    "id": "t2-023",
+    "level": 2,
+    "text": "Todos juegan a piedra, papel o tijera contra {jugador} a la vez. Quienes pierdan beben."
+  },
+  {
+    "id": "t2-024",
+    "level": 2,
+    "text": "Todos los que lleven puesto algo prestado beben."
+  },
+  {
+    "id": "t3-001",
+    "level": 3,
+    "text": "Todos los que hayan escrito a un ex este año beben."
+  },
+  {
+    "id": "t3-002",
+    "level": 3,
+    "text": "Todos los que hayan mentido hoy beben."
+  },
+  {
+    "id": "t3-003",
+    "level": 3,
+    "text": "Quien tenga el móvil con menos batería bebe 2 tragos."
+  },
+  {
+    "id": "t3-004",
+    "level": 3,
+    "text": "Todos los que tengan una conversación que no enseñarían beben."
+  },
+  {
+    "id": "t3-005",
+    "level": 3,
+    "text": "Todos los que hayan stalkeado a alguien esta semana beben un trago."
+  },
+  {
+    "id": "t3-006",
+    "level": 3,
+    "text": "El último en mirar al techo bebe 2 tragos."
+  },
+  {
+    "id": "t3-007",
+    "level": 3,
+    "text": "El primero en decir en voz alta el nombre de un ex reparte 2 tragos."
+  },
+  {
+    "id": "t3-008",
+    "level": 3,
+    "text": "El último en poner una mano en la mesa bebe 2 tragos."
+  },
+  {
+    "id": "t3-009",
+    "level": 3,
+    "text": "Todos enseñan cuántos chats silenciados tienen. Quien tenga más reparte 2 tragos."
+  },
+  {
+    "id": "t3-010",
+    "level": 3,
+    "text": "Todos señalan a quien más esconde lo que siente. El más señalado bebe."
+  },
+  {
+    "id": "t3-011",
+    "level": 3,
+    "text": "El primero en confesar que tiene un crush secreto reparte 2 tragos."
+  },
+  {
+    "id": "t3-012",
+    "level": 3,
+    "text": "El último en mirar a {jugador} bebe 2 tragos."
+  },
+  {
+    "id": "t3-013",
+    "level": 3,
+    "text": "Brindis: todos beben por quien tenga el secreto más jugoso.",
+    "alcohol": true
+  },
+  {
+    "id": "t3-014",
+    "level": 3,
+    "text": "Todos los que hayan tenido una cita este mes beben un trago."
+  },
+  {
+    "id": "t3-015",
+    "level": 3,
+    "text": "Todos los que tengan un crush ahora mismo beben, sin decir quién."
+  },
+  {
+    "id": "t3-016",
+    "level": 3,
+    "text": "Todos los que hayan llorado este mes beben un trago."
+  },
+  {
+    "id": "t3-017",
+    "level": 3,
+    "text": "Todos los que todavía tengan fotos con un ex en el móvil beben."
+  },
+  {
+    "id": "t3-018",
+    "level": 3,
+    "text": "El/la que haya tenido la relación más larga reparte 3 tragos."
+  },
+  {
+    "id": "t3-019",
+    "level": 3,
+    "text": "El/la que lleve más tiempo soltero/a reparte 2 tragos."
+  },
+  {
+    "id": "t3-020",
+    "level": 3,
+    "text": "Todos los que hayan mandado un 'te echo de menos' este año beben."
+  },
+  {
+    "id": "t3-021",
+    "level": 3,
+    "text": "Todos los que hayan bloqueado a alguien este año beben un trago."
+  },
+  {
+    "id": "t4-001",
+    "level": 4,
+    "text": "Todos los que tengan un secreto con alguien de este grupo beben."
+  },
+  {
+    "id": "t4-002",
+    "level": 4,
+    "text": "Todos señalan a la persona más falsa del grupo. La más señalada bebe 3 tragos."
+  },
+  {
+    "id": "t4-003",
+    "level": 4,
+    "text": "El grupo vota a quien peor ha jugado. Bebe 3 tragos."
+  },
+  {
+    "id": "t4-004",
+    "level": 4,
+    "text": "Todos los que hayan hablado mal de alguien presente beben."
+  },
+  {
+    "id": "t4-005",
+    "level": 4,
+    "text": "Todos señalan a quien más se alegra de los dramas ajenos. El más señalado bebe."
+  },
+  {
+    "id": "t4-006",
+    "level": 4,
+    "text": "Todos señalan a quien más miedo tiene a que le miren el móvil. El más señalado bebe."
+  },
+  {
+    "id": "t4-007",
+    "level": 4,
+    "text": "Todos dejan el móvil desbloqueado en el centro durante 1 minuto. Quien no se atreva, bebe 3 tragos."
+  },
+  {
+    "id": "t4-008",
+    "level": 4,
+    "text": "Todos los que hayan tenido algo con alguien de este grupo beben."
+  },
+  {
+    "id": "t4-009",
+    "level": 4,
+    "text": "Todos los que tengan un mensaje de su ex sin contestar beben."
+  },
+  {
+    "id": "t4-010",
+    "level": 4,
+    "text": "Todos los que hayan mirado hoy el perfil de alguien de este grupo beben."
+  },
+  {
+    "id": "t4-011",
+    "level": 4,
+    "text": "Todos los que hayan hablado hoy en otro chat de alguien que está aquí beben 2 tragos."
+  },
+  {
+    "id": "t4-012",
+    "level": 4,
+    "text": "El último en enseñar su última búsqueda de Google bebe 3 tragos."
+  },
+  {
+    "id": "t4-013",
+    "level": 4,
+    "text": "Todos los que tengan en el móvil una foto de alguien de aquí que no quieren que vea beben."
+  },
+  {
+    "id": "t4-014",
+    "level": 4,
+    "text": "Ronda de sinceridad: cada uno dice lo que menos le gusta de quien tiene a la derecha. Quien se niegue, bebe 3 tragos."
+  },
+  {
+    "id": "t4-015",
+    "level": 4,
+    "text": "{jugador} elige a dos personas que se enseñan mutuamente su último chat. Si alguna se niega, bebe 3 tragos."
+  },
+  {
+    "id": "t4-016",
+    "level": 4,
+    "text": "Todos los que hayan mentido en esta partida beben 2 tragos."
+  },
+  {
+    "id": "t4-017",
+    "level": 4,
+    "text": "A la de tres, todos dicen el nombre de quien creen que tiene un crush en el grupo. Quien reciba más nombres bebe 3 tragos."
+  },
+  {
+    "id": "t4-018",
+    "level": 4,
+    "text": "Todos dan su móvil desbloqueado a quien tienen a la izquierda durante 30 segundos. Quien se niegue, bebe 3 tragos."
+  }
+]
