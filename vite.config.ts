@@ -1,6 +1,5 @@
 import { defineConfig, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
-import basicSsl from '@vitejs/plugin-basic-ssl';
 import { APP } from './app.config';
 
 /** Inyecta el nombre de app.config.ts en index.html y genera el manifest. */
@@ -32,7 +31,6 @@ function appName(): Plugin {
 }
 
 export default defineConfig({
-  // https también en desarrollo: sin él, el móvil no deja compartir ni mantener la pantalla encendida.
-  plugins: [react(), appName(), basicSsl()],
+  plugins: [react(), appName()],
   base: './',
 });
