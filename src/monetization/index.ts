@@ -17,10 +17,16 @@ export const PREMIUM_PRICE = '3,99 €';
  */
 export const INTERSTITIAL_MIN_CARDS = 20;
 
+/**
+ * Modo gratis (VITE_FREE_MODE=true en .env): todo desbloqueado, sin muro de pago ni anuncios.
+ * Para volver a cobrar, ponerlo a false y recompilar.
+ */
+export const FREE_MODE = import.meta.env.VITE_FREE_MODE === 'true';
+
 const isNative = () => Capacitor.isNativePlatform();
 
 export function isPremium(): boolean {
-  return load('premium', false);
+  return FREE_MODE || load('premium', false);
 }
 
 export async function purchasePremium(): Promise<boolean> {
