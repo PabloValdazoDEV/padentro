@@ -34,7 +34,7 @@ if (!KEY) {
 }
 const API = 'https://texttospeech.googleapis.com/v1';
 
-async function synthesize(text, voice) {
+async function synthesize(text, voice, tries = 0) {
   const res = await fetch(`${API}/text:synthesize?key=${KEY}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -44,6 +44,11 @@ async function synthesize(text, voice) {
       audioConfig: { audioEncoding: 'MP3' },
     }),
   });
+  // Google limita las peticiones por minuto: si nos frena, esperamos y reintentamos.
+  if (res.status === 429 && tries < 8) {
+    await new Promise((r) => setTimeout(r, 5000 * 2 ** Math.min(tries, 3)));
+    return synthesize(text, voice, tries + 1);
+  }
   if (!res.ok) throw new Error(`${res.status} ${await res.text()}`);
   return Buffer.from((await res.json()).audioContent, 'base64');
 }
@@ -115,7 +120,7 @@ const worker = async () => {
   }
 };
 try {
-  await Promise.all(Array.from({ length: 4 }, worker));
+  await Promise.all(Array.from({ length: 2 }, worker));
 } finally {
   // Aunque falle a medias, guardamos lo hecho para no repetirlo.
   for (const file of Object.keys(manifest)) if (!(file in wanted)) delete manifest[file];
