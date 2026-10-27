@@ -93,7 +93,7 @@ NIVELES
 2 Fiesta: anécdotas de fiesta, ligar, vergüenza, redes sociales, resacas.
 3 Picante: íntimo y comprometido (ex, crushes, celos, secretos, inseguridades, lo que piensas del grupo).
 4 Extremo: lo más bestia; verdades incómodas, cotilleos, retos con el móvil que dan miedo.
-5 Sin filtro: sexo y ligoteo entre el grupo, pícaro e insinuante pero nunca explícito.
+5 Sin filtro: sexo sin rodeos y tensión entre el grupo; atrevido de verdad, pero sin describir nada explícito.
 
 TIPO "<TIPO>"
 <NOTAS_TIPO>
