@@ -1,3 +1,5 @@
+import { Capacitor } from '@capacitor/core';
+import { APP } from '../app.config';
 import audioFiles from './content/es/audio.json';
 import { load, save } from './storage';
 
@@ -86,11 +88,20 @@ function recordedUrl(cardId: string, sober: boolean): string | undefined {
 }
 
 /**
- * Lee una carta: con su audio grabado si existe y, si no (o falla la descarga), con la voz del móvil.
+ * Cartas con nombres: el audio se genera al momento en el servidor (public/tts.php) con la misma voz.
+ * Desde la app nativa hay que ir a la web; en la web, al propio dominio.
+ */
+const liveUrl = (text: string) =>
+  `${Capacitor.isNativePlatform() ? `${APP.url}/` : ''}tts.php?t=${encodeURIComponent(forSpeech(text))}`;
+
+/**
+ * Lee una carta con la voz grabada: su audio si lo tiene y, si lleva nombres, generado al momento.
+ * Si no hay conexión o falla, con la voz del móvil.
  * El audio se descarga entero antes de sonar: así el service worker lo guarda y luego suena sin conexión.
  */
-export function speakCard(cardId: string, sober: boolean, fallbackText: string) {
-  const url = recordedUrl(cardId, sober);
+export function speakCard(cardId: string, sober: boolean, text: string) {
+  const fallbackText = text;
+  const url = recordedUrl(cardId, sober) ?? (hasRecordedAudio ? liveUrl(text) : undefined);
   if (!url) return speak(fallbackText);
   stopSpeaking();
   const mine = turn;

@@ -142,7 +142,8 @@ export default function Game(props: Props) {
     return prefix + d.text;
   };
 
-  // Con audio grabado no se dice el nombre delante: ya se ve en pantalla y el audio no lo lleva.
+  // Las cartas grabadas suenan sin el nombre delante (ya se ve en pantalla); las que llevan nombres
+  // se generan al momento con el texto completo, nombre incluido.
   const sayCard = (d: Drawn) => speakCard(d.card.id, sober, speechText(d));
 
   useEffect(() => {

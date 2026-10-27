@@ -7,3 +7,5 @@ android
 grok/PROMPT.txt
 .env.local
 grok/voces
+tts-config.php
+tts-cache
