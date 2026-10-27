@@ -45,9 +45,39 @@ const AUDIO: Record<string, string> = audioFiles;
 export const hasRecordedAudio = Object.keys(AUDIO).length > 0;
 /** Se puede leer en voz alta: con audio grabado o con la voz del móvil. */
 export const canRead = speechSupported || hasRecordedAudio;
-let playing: HTMLAudioElement | undefined;
 // Cada lectura nueva invalida las anteriores que aún se estén descargando.
 let turn = 0;
+
+/**
+ * Un único reproductor para todas las cartas. El iPhone solo deja sonar audio justo después de un toque,
+ * y al deslizar la carta nueva sale tras la animación, fuera de ese toque. Pero si un reproductor ha sonado
+ * una vez durante un toque, queda desbloqueado y ya puede sonar cuando sea: lo desbloqueamos con el primer toque.
+ */
+const player: HTMLAudioElement | undefined = typeof Audio !== 'undefined' ? new Audio() : undefined;
+const SILENCE = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA';
+let unlocked = false;
+const unlock = () => {
+  if (!player || unlocked || player.src.startsWith('blob:')) return;
+  player.muted = true;
+  player.src = SILENCE;
+  player
+    .play()
+    .then(() => {
+      player.pause();
+      player.muted = false;
+      markUnlocked();
+    })
+    .catch(() => {
+      player.muted = false;
+    });
+};
+const UNLOCK_EVENTS = ['touchend', 'click', 'keydown'] as const;
+const markUnlocked = () => {
+  unlocked = true;
+  for (const ev of UNLOCK_EVENTS) document.removeEventListener(ev, unlock, true);
+};
+if (typeof document !== 'undefined') for (const ev of UNLOCK_EVENTS) document.addEventListener(ev, unlock, true);
+let blobUrl: string | undefined;
 
 /** Audio grabado de la carta, si lo hay (las cartas con nombres no tienen). */
 function recordedUrl(cardId: string, sober: boolean): string | undefined {
@@ -68,10 +98,12 @@ export function speakCard(cardId: string, sober: boolean, fallbackText: string) 
     // Algunos servidores devuelven la página principal en vez de un 404: solo vale si es audio de verdad.
     .then((res) => (res.ok && res.headers.get('content-type')?.startsWith('audio/') ? res.blob() : Promise.reject()))
     .then((blob) => {
-      if (mine !== turn) return;
-      playing = new Audio(URL.createObjectURL(blob));
-      playing.addEventListener('ended', () => URL.revokeObjectURL(playing!.src), { once: true });
-      return playing.play();
+      if (mine !== turn || !player) return;
+      if (blobUrl) URL.revokeObjectURL(blobUrl);
+      blobUrl = URL.createObjectURL(blob);
+      player.muted = false;
+      player.src = blobUrl;
+      return player.play().then(markUnlocked);
     })
     .catch(() => mine === turn && speak(fallbackText));
 }
@@ -89,6 +121,5 @@ export function speak(text: string) {
 export function stopSpeaking() {
   turn++;
   synth?.cancel();
-  playing?.pause();
-  playing = undefined;
+  player?.pause();
 }
