@@ -98,6 +98,10 @@ NIVELES
 TIPO "<TIPO>"
 <NOTAS_TIPO>
 
+TEMA DE ESTA TANDA: <TEMA>
+Todas las cartas tienen que ir de este tema, cada una sobre una situación distinta dentro de él.
+Es para que salgan ideas nuevas: piensa en momentos concretos que le pasan a la gente de 18–30 años con este tema.
+
 ASÍ SÍ (cartas buenas que ya están en el juego; copia el estilo, no las ideas):
 <EJEMPLOS>
 
@@ -117,9 +121,8 @@ REGLAS
 - Inclusivo en género: "o/a" (ej. "enamorado/a", "el/la más falso/a") o formas neutras.
 - Máximo 140 caracteres por carta.
 - Puedes usar {jugador} (quien tiene el turno) y {otro} (otro jugador al azar). No inventes más variables.
-- Ninguna fórmula puede aparecer más de 3 veces. No repitas tema en cartas seguidas.
-- Como mucho un tercio de las cartas sobre "este grupo". El resto, mezcla: ex y ligues, familia, redes y móvil,
-  estudios/trabajo, dinero, autoestima, viajes, fiestas pasadas, manías, sueños y miedos.
+- Ninguna fórmula puede aparecer más de 3 veces. Dentro del tema, cada carta una situación distinta.
+- Como mucho un tercio de las cartas sobre "este grupo"; el resto, sobre la vida de cada uno.
 - Cada carta es una idea nueva: no reutilices preguntas de otros tipos de carta.
 - No repitas ninguna de estas cartas que ya existen:
 <EXISTENTES>
@@ -170,7 +173,8 @@ Puede usar {jugador} ("{jugador} es el/la rey/reina: …").
 
 ## Flujo recomendado
 
-1. `npm run prompt -- reto 3` copia al portapapeles el prompt completo, con las cartas que ya existen.
+1. `npm run prompt -- reto 3 [cantidad] [tema]` copia al portapapeles el prompt completo, con las cartas que ya existen.
+   Si no le das tema, elige uno al azar: con tema Grok repite mucho menos.
    Pégalo en Grok en un **chat nuevo**, porque en un chat largo Grok se olvida de las reglas.
 2. `npm run import -- verdad grok/verdad-3.json`
 3. Léete las cartas en el JSON y borra las que no te gusten. Ninguna IA acierta siempre.
@@ -181,8 +185,8 @@ Puede usar {jugador} ("{jugador} es el/la rey/reina: …").
 
 | Tipo                                        | Por nivel | Total aprox. |
 | ------------------------------------------- | --------- | ------------ |
-| verdad, reto, yo-nunca, mas-probable        | 60        | 240 cada uno |
-| todos, duelo, regla                         | 25        | 100 cada uno |
+| verdad, reto, yo-nunca, mas-probable        | 80 en niveles 1–2, 60 en 3–5 | 340 cada uno |
+| todos, duelo, regla                         | 40 en niveles 1–2, 30 en 3–5 | 170 cada uno |
 
-Unas 1.250 cartas. Los niveles de pago (3 y 4) tienen que ser los que más cartas tengan,
-porque son lo que vendes.
+Unas 2.000 cartas. Una partida son 40–60 cartas, y Yo nunca y Más probable usan un solo tipo:
+con menos de 80 por nivel, un grupo ve repetidas en la segunda o tercera partida.
