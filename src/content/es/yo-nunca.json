@@ -685,11 +685,6 @@
     "text": "Yo nunca he mandado una foto de la que luego me he arrepentido."
   },
   {
-    "id": "yn5-003",
-    "level": 5,
-    "text": "Yo nunca he fingido que me gustaba algo en la cama."
-  },
-  {
     "id": "yn5-004",
     "level": 5,
     "text": "Yo nunca me he liado con dos personas en la misma noche."
@@ -733,5 +728,65 @@
     "id": "yn5-012",
     "level": 5,
     "text": "Yo nunca he hecho un trío... ni lo he pensado en serio."
+  },
+  {
+    "id": "yn5-013",
+    "level": 5,
+    "text": "Yo nunca he fingido un orgasmo para que la cosa acabara antes."
+  },
+  {
+    "id": "yn5-014",
+    "level": 5,
+    "text": "Yo nunca he usado un juguete sexual con otra persona."
+  },
+  {
+    "id": "yn5-015",
+    "level": 5,
+    "text": "Yo nunca he tenido sexo en casa de mis padres con ellos dentro."
+  },
+  {
+    "id": "yn5-016",
+    "level": 5,
+    "text": "Yo nunca he tenido sexo en la playa o en un parque de noche."
+  },
+  {
+    "id": "yn5-017",
+    "level": 5,
+    "text": "Yo nunca me he liado con dos personas del mismo grupo de amigos."
+  },
+  {
+    "id": "yn5-018",
+    "level": 5,
+    "text": "Yo nunca he tenido sexo en la ducha con alguien."
+  },
+  {
+    "id": "yn5-019",
+    "level": 5,
+    "text": "Yo nunca he mentido sobre con cuánta gente me he acostado."
+  },
+  {
+    "id": "yn5-020",
+    "level": 5,
+    "text": "Yo nunca he puesto los cuernos a nadie."
+  },
+  {
+    "id": "yn5-021",
+    "level": 5,
+    "text": "Yo nunca me he liado con alguien en un viaje y no le he vuelto a hablar."
+  },
+  {
+    "id": "yn5-022",
+    "level": 5,
+    "text": "Yo nunca he mandado un mensaje subido de tono a las 3 de la mañana y me he arrepentido."
+  },
+  {
+    "id": "yn5-023",
+    "level": 5,
+    "text": "Yo nunca me he liado con alguien sabiendo que al día siguiente me iba a arrepentir."
+  },
+  {
+    "id": "yn5-024",
+    "level": 5,
+    "text": "Yo nunca he cotilleado el móvil de un ligue buscando mensajes de otras personas."
   }
 ]
