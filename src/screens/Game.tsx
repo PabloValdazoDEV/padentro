@@ -28,6 +28,9 @@ interface Props {
   /** Leer cada carta en voz alta al salir. */
   voice: boolean;
   onVoice: (v: boolean) => void;
+  /** Efectos de sonido. */
+  sounds: boolean;
+  onSounds: (v: boolean) => void;
   /** Partida guardada a retomar; si no hay, empieza una nueva. */
   resume?: SavedGame | null;
   premium: boolean;
@@ -239,22 +242,33 @@ export default function Game(props: Props) {
         <h2>
           {info.emoji} {info.name}
         </h2>
-        {speechSupported ? (
+        <span className="topbar-actions">
           <button
-            className={`icon-btn voice-toggle ${voice ? 'on' : ''}`}
-            aria-label={voice ? 'Desactivar lectura en voz alta' : 'Activar lectura en voz alta'}
-            aria-pressed={voice}
+            className={`icon-btn voice-toggle ${props.sounds ? 'on' : ''}`}
+            aria-label={props.sounds ? 'Quitar efectos de sonido' : 'Activar efectos de sonido'}
+            aria-pressed={props.sounds}
             onClick={() => {
               haptic();
-              if (voice) stopSpeaking();
-              props.onVoice(!voice);
+              props.onSounds(!props.sounds);
             }}
           >
-            {voice ? '🔊' : '🔇'}
+            {props.sounds ? '🔔' : '🔕'}
           </button>
-        ) : (
-          <span />
-        )}
+          {speechSupported && (
+            <button
+              className={`icon-btn voice-toggle ${voice ? 'on' : ''}`}
+              aria-label={voice ? 'Desactivar lectura en voz alta' : 'Activar lectura en voz alta'}
+              aria-pressed={voice}
+              onClick={() => {
+                haptic();
+                if (voice) stopSpeaking();
+                props.onVoice(!voice);
+              }}
+            >
+              {voice ? '🔊' : '🔇'}
+            </button>
+          )}
+        </span>
       </header>
 
       {current && (

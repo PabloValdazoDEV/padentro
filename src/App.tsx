@@ -102,6 +102,8 @@ export default function App() {
           disliked={disliked}
           voice={voice}
           onVoice={setVoice}
+          sounds={sounds}
+          onSounds={setSounds}
           resume={resume}
           premium={premium || sessionUnlocked}
           onPremium={() => setPaywallOpen(true)}

@@ -211,6 +211,11 @@ p {
   width: 44px;
 }
 
+.topbar-actions {
+  display: flex;
+  gap: 6px;
+}
+
 /* ---------- Home ---------- */
 .home {
   justify-content: space-between;
