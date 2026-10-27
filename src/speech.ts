@@ -94,29 +94,57 @@ function recordedUrl(cardId: string, sober: boolean): string | undefined {
 const liveUrl = (text: string) =>
   `${Capacitor.isNativePlatform() ? `${APP.url}/` : ''}tts.php?t=${encodeURIComponent(forSpeech(text))}`;
 
+/** Descarga un audio entero. Algunos servidores devuelven la página principal en vez de un 404: solo vale si es audio. */
+const fetchAudio = (url: string) =>
+  fetch(url).then((res) =>
+    res.ok && res.headers.get('content-type')?.startsWith('audio/') ? res.blob() : Promise.reject(),
+  );
+
+/** Reproduce varios audios seguidos con el reproductor desbloqueado. */
+function playInOrder(blobs: Blob[], mine: number) {
+  if (!player || mine !== turn || !blobs.length) return;
+  const [first, ...rest] = blobs;
+  if (blobUrl) URL.revokeObjectURL(blobUrl);
+  blobUrl = URL.createObjectURL(first);
+  player.muted = false;
+  player.src = blobUrl;
+  if (rest.length) player.addEventListener('ended', () => playInOrder(rest, mine), { once: true });
+  return player.play().then(markUnlocked);
+}
+
 /**
  * Lee una carta con la voz grabada: su audio si lo tiene y, si lleva nombres, generado al momento.
- * Si no hay conexión o falla, con la voz del móvil.
- * El audio se descarga entero antes de sonar: así el service worker lo guarda y luego suena sin conexión.
+ * `intro` ("Turno de Ana.") se genera al momento y suena antes; si no se puede (sin conexión), se lee solo la carta.
+ * Si la carta no se puede reproducir, todo con la voz del móvil.
+ * Los audios se descargan enteros antes de sonar: así el service worker los guarda y luego suenan sin conexión.
  */
-export function speakCard(cardId: string, sober: boolean, text: string) {
-  const fallbackText = text;
-  const url = recordedUrl(cardId, sober) ?? (hasRecordedAudio ? liveUrl(text) : undefined);
-  if (!url) return speak(fallbackText);
+export function speakCard(cardId: string, sober: boolean, text: string, intro?: string) {
+  const fullText = intro ? `${intro} ${text}` : text;
+  const recorded = recordedUrl(cardId, sober);
+  if (!hasRecordedAudio) return speak(fullText);
   stopSpeaking();
   const mine = turn;
-  fetch(url)
-    // Algunos servidores devuelven la página principal en vez de un 404: solo vale si es audio de verdad.
-    .then((res) => (res.ok && res.headers.get('content-type')?.startsWith('audio/') ? res.blob() : Promise.reject()))
-    .then((blob) => {
-      if (mine !== turn || !player) return;
-      if (blobUrl) URL.revokeObjectURL(blobUrl);
-      blobUrl = URL.createObjectURL(blob);
-      player.muted = false;
-      player.src = blobUrl;
-      return player.play().then(markUnlocked);
-    })
-    .catch(() => mine === turn && speak(fallbackText));
+  // Sin audio grabado (lleva nombres), la frase entera se genera de una vez, que suena más natural.
+  if (!recorded) {
+    fetchAudio(liveUrl(fullText))
+      .then((blob) => playInOrder([blob], mine))
+      .catch(() => mine === turn && speak(fullText));
+    return;
+  }
+  const introBlob = intro ? fetchAudio(liveUrl(intro)).catch(() => undefined) : Promise.resolve(undefined);
+  Promise.all([introBlob, fetchAudio(recorded)])
+    .then(([i, card]) => playInOrder(i ? [i, card] : [card], mine))
+    .catch(() => mine === turn && speak(fullText));
+}
+
+/** Una frase suelta con la misma voz ("Turno de Ana. ¿Verdad o reto?"). */
+export function speakLine(text: string) {
+  if (!hasRecordedAudio) return speak(text);
+  stopSpeaking();
+  const mine = turn;
+  fetchAudio(liveUrl(text))
+    .then((blob) => playInOrder([blob], mine))
+    .catch(() => mine === turn && speak(text));
 }
 
 export function speak(text: string) {

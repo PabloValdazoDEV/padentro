@@ -16,7 +16,7 @@ import { INTERSTITIAL_MIN_CARDS, showInterstitial } from '../monetization';
 import { maybeRequestReview } from '../review';
 import { APP } from '../../app.config';
 import { cardImage } from '../share/image';
-import { canRead, speakCard, stopSpeaking } from '../speech';
+import { canRead, speakCard, speakLine, stopSpeaking } from '../speech';
 import type { Card, CardKind, Level, ModeId, Player } from '../types';
 
 interface Props {
@@ -135,20 +135,20 @@ export default function Game(props: Props) {
     });
   }, [turn, drawn, mode, levels, sober, shuffledPlayers, deck, startedAt]);
 
-  // Nombre y tipo solo en las cartas dirigidas a un jugador ("Ana. Verdad. ¿…?"); en el resto el texto ya se explica solo.
-  const speechText = (d: Drawn) => {
+  // "Turno de Ana." delante de las cartas dirigidas a alguien. En Verdad o reto no hace falta:
+  // ya se ha dicho al elegir. Las normas llevan "Nueva norma." (en las grabadas ya va dentro del audio).
+  const turnIntro = (d: Drawn) => {
     const directed = d.card.kind === 'verdad' || d.card.kind === 'reto';
-    const prefix = directed && d.player ? `${d.player.name}. ${KIND_INFO[d.card.kind].label}. ` : d.card.kind === 'regla' ? 'Nueva norma. ' : '';
-    return prefix + d.text;
+    return directed && d.player && mode !== 'verdad-reto' ? `Turno de ${d.player.name}.` : undefined;
   };
-
-  // Las cartas grabadas suenan sin el nombre delante (ya se ve en pantalla); las que llevan nombres
-  // se generan al momento con el texto completo, nombre incluido.
-  const sayCard = (d: Drawn) => speakCard(d.card.id, sober, speechText(d));
+  const sayCard = (d: Drawn) =>
+    speakCard(d.card.id, sober, (d.card.kind === 'regla' ? 'Nueva norma. ' : '') + d.text, turnIntro(d));
 
   useEffect(() => {
-    if (voice && drawn) sayCard(drawn);
-  }, [voice, drawn]);
+    if (!voice) return;
+    if (drawn) sayCard(drawn);
+    else if (mode === 'verdad-reto') speakLine(`Turno de ${playerAt(turn)?.name}. ¿Verdad o reto?`);
+  }, [voice, drawn, turn]);
   useEffect(() => stopSpeaking, []);
   // Si se apaga la lectura desde los ajustes, que se calle al momento.
   useEffect(() => {
