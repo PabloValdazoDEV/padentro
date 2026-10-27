@@ -377,6 +377,86 @@
     "text": "Imita cómo intentas pedir un taxi a las 5 de la mañana."
   },
   {
+    "id": "r2-029",
+    "level": 2,
+    "text": "Imita cómo pides comida a las 4 de la mañana al salir de fiesta."
+  },
+  {
+    "id": "r2-030",
+    "level": 2,
+    "text": "Enseña la última foto de comida de tu galería y explica por qué la hiciste."
+  },
+  {
+    "id": "r2-031",
+    "level": 2,
+    "text": "Haz 15 segundos de chef de la tele presentando un plato que se invente {otro}."
+  },
+  {
+    "id": "r2-032",
+    "level": 2,
+    "text": "Imita cómo te comes un kebab borracho/a intentando no mancharte."
+  },
+  {
+    "id": "r2-033",
+    "level": 2,
+    "text": "Enseña tus pedidos de comida a domicilio de esta semana."
+  },
+  {
+    "id": "r2-034",
+    "level": 2,
+    "text": "Deja que {otro} elija un alimento y represéntalo con mímica hasta que lo adivinen."
+  },
+  {
+    "id": "r2-035",
+    "level": 2,
+    "text": "Imita cómo intentas abrir un tarro que no hay manera de abrir."
+  },
+  {
+    "id": "r2-036",
+    "level": 2,
+    "text": "Haz de crítico gastronómico: 20 segundos de reseña de un restaurante inventado."
+  },
+  {
+    "id": "r2-037",
+    "level": 2,
+    "text": "Imita a alguien pidiendo la cuenta en un restaurante caro sabiendo que no le llega."
+  },
+  {
+    "id": "r2-038",
+    "level": 2,
+    "text": "Haz de catador/a de vinos 10 segundos con un vaso vacío, muy en serio."
+  },
+  {
+    "id": "r2-039",
+    "level": 2,
+    "text": "Imita cómo te comes algo picante que no puedes más pero no quieres reconocerlo."
+  },
+  {
+    "id": "r2-040",
+    "level": 2,
+    "text": "Inventa una pizza con tres ingredientes rarísimos y defiéndela como si fuera la mejor."
+  },
+  {
+    "id": "r2-041",
+    "level": 2,
+    "text": "Haz de foodie 15 segundos sacando fotos a un plato imaginario desde todos los ángulos."
+  },
+  {
+    "id": "r2-042",
+    "level": 2,
+    "text": "Imita cómo intentas comer con palillos cuando se te cae todo."
+  },
+  {
+    "id": "r2-043",
+    "level": 2,
+    "text": "Imita cómo llegas a casa muerto/a de hambre y abres la nevera vacía."
+  },
+  {
+    "id": "r2-044",
+    "level": 2,
+    "text": "Haz de jefe/a de cocina de MasterChef gritando a un ayudante imaginario durante 15 segundos."
+  },
+  {
     "id": "r3-001",
     "level": 3,
     "text": "Deja que el grupo lea tus últimos 5 chats (solo la lista)."
