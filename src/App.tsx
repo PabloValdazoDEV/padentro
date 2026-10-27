@@ -101,9 +101,7 @@ export default function App() {
           sober={sober}
           disliked={disliked}
           voice={voice}
-          onVoice={setVoice}
-          sounds={sounds}
-          onSounds={setSounds}
+          onSettings={() => setSettingsOpen(true)}
           resume={resume}
           premium={premium || sessionUnlocked}
           onPremium={() => setPaywallOpen(true)}
@@ -117,6 +115,7 @@ export default function App() {
 
       {settingsOpen && (
         <Settings
+          inGame={screen === 'game'}
           premium={premium}
           sober={sober}
           haptics={haptics}

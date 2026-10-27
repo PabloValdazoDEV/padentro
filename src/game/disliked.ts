@@ -1,4 +1,3 @@
-import { CARDS } from '../content';
 import { load, save } from '../storage';
 
 const KEY = 'disliked';
@@ -15,13 +14,3 @@ export function clearDisliked(set: Set<string>) {
   save(KEY, []);
 }
 
-/** Lista legible para pegársela a quien revisa el contenido. */
-export function dislikedReport(set: ReadonlySet<string>): string {
-  const all = Object.values(CARDS).flat();
-  return [...set]
-    .map((id) => {
-      const card = all.find((c) => c.id === id);
-      return card ? `${card.id} (${card.kind}) | ${card.text}` : id;
-    })
-    .join('\n');
-}

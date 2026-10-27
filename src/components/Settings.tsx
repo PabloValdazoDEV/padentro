@@ -1,5 +1,3 @@
-import { useRef, useState } from 'react';
-import { dislikedReport } from '../game/disliked';
 import { restorePurchases } from '../monetization';
 import { speechSupported } from '../speech';
 import Toggle from './Toggle';
@@ -7,6 +5,8 @@ import VoicePicker from './VoicePicker';
 import Sheet from './Sheet';
 
 interface Props {
+  /** En partida solo sale lo que se puede cambiar sobre la marcha (sonido, voz, vibración). */
+  inGame?: boolean;
   premium: boolean;
   sober: boolean;
   haptics: boolean;
@@ -23,33 +23,20 @@ interface Props {
 }
 
 export default function Settings(props: Props) {
-  const { premium, sober, haptics, disliked, onSober, onHaptics, onRestored, onClose } = props;
-  const report = useRef<HTMLTextAreaElement>(null);
-  const [copied, setCopied] = useState(false);
-
-  // navigator.clipboard solo existe en https; por la IP de la red local usamos execCommand.
-  const copy = async () => {
-    const text = report.current?.value ?? '';
-    try {
-      await navigator.clipboard.writeText(text);
-    } catch {
-      report.current?.select();
-      document.execCommand('copy');
-    }
-    setCopied(true);
-  };
+  const { inGame, premium, sober, haptics, disliked, onSober, onHaptics, onRestored, onClose } = props;
 
   return (
     <Sheet onClose={onClose}>
       <h2>Ajustes</h2>
       <div className="toggle-list">
-        <Toggle
-          label="Modo sin alcohol"
-          description="Los tragos se cambian por penitencias"
-          checked={sober}
-          onChange={onSober}
-        />
-        <Toggle label="Vibración" checked={haptics} onChange={onHaptics} />
+        {!inGame && (
+          <Toggle
+            label="Modo sin alcohol"
+            description="Los tragos se cambian por penitencias"
+            checked={sober}
+            onChange={onSober}
+          />
+        )}
         <Toggle
           label="Efectos de sonido"
           description="No cortan la música que tengáis puesta"
@@ -59,28 +46,23 @@ export default function Settings(props: Props) {
         {speechSupported && (
           <Toggle
             label="Leer las cartas en voz alta"
-            description="También puedes tocar 🔊 en cada carta"
+            description="Cada carta se lee sola al salir. Si no, toca 🔊 en la carta"
             checked={props.voice}
             onChange={props.onVoice}
           />
         )}
         {speechSupported && <VoicePicker />}
+        <Toggle label="Vibración" checked={haptics} onChange={onHaptics} />
       </div>
-      {disliked.size > 0 && (
-        <div className="disliked">
-          <strong>Cartas descartadas ({disliked.size})</strong>
-          <textarea ref={report} readOnly value={dislikedReport(disliked)} rows={4} />
-          <div className="disliked-actions">
-            <button className="btn btn-secondary" onClick={copy}>
-              {copied ? '✓ Copiado' : 'Copiar lista'}
-            </button>
-            <button className="btn btn-ghost" onClick={props.onClearDisliked}>
-              Recuperarlas
-            </button>
-          </div>
-        </div>
+      {!inGame && disliked.size > 0 && (
+        <p className="disliked">
+          Has descartado {disliked.size} {disliked.size === 1 ? 'carta' : 'cartas'} con 👎.{' '}
+          <button className="link" onClick={props.onClearDisliked}>
+            {disliked.size === 1 ? 'Recuperarla' : 'Recuperarlas'}
+          </button>
+        </p>
       )}
-      {!premium && (
+      {!inGame && !premium && (
         <button className="btn btn-secondary" onClick={async () => (await restorePurchases()) && onRestored()}>
           Restaurar compras
         </button>

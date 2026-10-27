@@ -27,10 +27,8 @@ interface Props {
   disliked: ReadonlySet<string>;
   /** Leer cada carta en voz alta al salir. */
   voice: boolean;
-  onVoice: (v: boolean) => void;
-  /** Efectos de sonido. */
-  sounds: boolean;
-  onSounds: (v: boolean) => void;
+  /** Abre los ajustes (sonido, voz, vibración) sin salir de la partida. */
+  onSettings: () => void;
   /** Partida guardada a retomar; si no hay, empieza una nueva. */
   resume?: SavedGame | null;
   premium: boolean;
@@ -148,6 +146,10 @@ export default function Game(props: Props) {
     if (voice && drawn) speak(speechText(drawn));
   }, [voice, drawn]);
   useEffect(() => stopSpeaking, []);
+  // Si se apaga la lectura desde los ajustes, que se calle al momento.
+  useEffect(() => {
+    if (!voice) stopSpeaking();
+  }, [voice]);
 
   // Duelos y normas tienen su propio sonido, justo después del de pasar carta.
   const kindSound = useRef(false);
@@ -242,33 +244,16 @@ export default function Game(props: Props) {
         <h2>
           {info.emoji} {info.name}
         </h2>
-        <span className="topbar-actions">
-          <button
-            className={`icon-btn voice-toggle ${props.sounds ? 'on' : ''}`}
-            aria-label={props.sounds ? 'Quitar efectos de sonido' : 'Activar efectos de sonido'}
-            aria-pressed={props.sounds}
-            onClick={() => {
-              haptic();
-              props.onSounds(!props.sounds);
-            }}
-          >
-            {props.sounds ? '🔔' : '🔕'}
-          </button>
-          {speechSupported && (
-            <button
-              className={`icon-btn voice-toggle ${voice ? 'on' : ''}`}
-              aria-label={voice ? 'Desactivar lectura en voz alta' : 'Activar lectura en voz alta'}
-              aria-pressed={voice}
-              onClick={() => {
-                haptic();
-                if (voice) stopSpeaking();
-                props.onVoice(!voice);
-              }}
-            >
-              {voice ? '🔊' : '🔇'}
-            </button>
-          )}
-        </span>
+        <button
+          className="icon-btn"
+          aria-label="Ajustes"
+          onClick={() => {
+            haptic();
+            props.onSettings();
+          }}
+        >
+          ⚙️
+        </button>
       </header>
 
       {current && (

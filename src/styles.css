@@ -689,35 +689,19 @@ p {
 
 .disliked {
   align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  text-align: left;
-}
-
-.disliked textarea {
-  width: 100%;
-  padding: 10px 12px;
-  border: 1px solid var(--surface-2);
-  border-radius: 14px;
-  background: var(--surface);
   color: var(--muted);
-  font-family: inherit;
-  font-size: 13px;
-  line-height: 1.4;
-  resize: none;
-  user-select: text;
+  font-size: 14px;
 }
 
-.disliked-actions {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
-}
-
-.disliked-actions .btn {
-  min-height: 44px;
-  font-size: 15px;
+.link {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--mint);
+  font: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* ---------- Interruptores ---------- */
