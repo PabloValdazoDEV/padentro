@@ -26,7 +26,6 @@ const THEMES = [
   'series, música, famosos y TikTok',
   'dinero, compras y ser un desastre',
   'infancia y adolescencia',
-  'fiestas, discotecas y resacas',
   'citas, ligues y apps de ligar',
   'manías, miedos y cosas raras de cada uno',
   'transporte, coches, aviones y perderse',
