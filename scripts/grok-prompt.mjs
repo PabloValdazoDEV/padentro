@@ -4,7 +4,7 @@
 // Uso: npm run prompt -- <tipo> <nivel> [cantidad] [tema]
 // Sin tema elige uno al azar: con un tema concreto Grok repite mucho menos.
 import { execSync } from 'node:child_process';
-import { readFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 import { KINDS, LEVELS, readCards } from './cards-lib.mjs';
 
 const [kind, levelArg, n = '30', ...themeArg] = process.argv.slice(2);
@@ -78,6 +78,9 @@ const prompt = template
   .replace('<EJEMPLOS>', examples)
   .replace('<EXISTENTES>', existing)
   .replace('<OTROS_TIPOS>', others);
+
+// También en un archivo, por si el portapapeles falla o se quiere copiar desde el editor.
+writeFileSync(new URL('../grok/PROMPT.txt', import.meta.url), prompt);
 
 try {
   execSync('pbcopy', { input: prompt });

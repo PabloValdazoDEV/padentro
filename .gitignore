@@ -4,3 +4,4 @@ dist
 ios
 android
 *.tsbuildinfo
+grok/PROMPT.txt
