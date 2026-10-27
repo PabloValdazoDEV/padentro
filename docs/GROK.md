@@ -52,13 +52,26 @@ Apple y Google con clasificación +18; lo explícito o pornográfico hace que re
 - NADA de contenido sexual ni desnudos. Lo "picante" es emocional y social, no sexual.
 
 ### nivel-5
-- Tema: sexo, ligues, atracción y tensión dentro del grupo. Insinuante y pícaro, NUNCA explícito:
-  nada de describir actos sexuales, partes del cuerpo con detalle ni lenguaje porno.
-- Retos con contacto físico (besos, sentarse encima, bailar pegados...) siempre con consentimiento:
-  "si acepta", "a quien quiera" o que la otra persona pueda decir que no sin pasar nada.
-- Nada de desnudarse más allá de una prenda de ropa normal (sudadera, calcetines...), ni fotos o
-  mensajes íntimos a gente de fuera, ni nada con menores, sin consentimiento o con desconocidos.
+- NIVEL MÁXIMO, +18 y para gente que ha aceptado jugarlo: tiene que dar vergüenza de verdad y hacer gritar al grupo.
+  Si una carta la podría haber escrito una tía en una cena familiar, es demasiado floja: descártala.
+- Tema: sexo sin rodeos. Experiencias, fantasías, gustos y manías en la cama, sitios, frecuencia, la primera vez,
+  rollos de una noche, ex, apps de ligar, mensajes y fotos subidas de tono, y sobre todo tensión DENTRO del grupo
+  (quién te pone, con quién lo harías, quién crees que es mejor en la cama).
+- Se puede hablar de sexo con palabras normales ("sexo", "follar", "en la cama", "ponerse cachondo/a", "juguetes").
+  Lo que NO: describir actos o partes del cuerpo con detalle, lenguaje porno o vulgar gratuito.
+- Retos atrevidos pero sin desnudos: besos (en la boca solo "si acepta"), bailes pegados, sentarse encima, chupitos
+  en el cuello u ombligo "si se deja", susurrar algo guarro al oído, enseñar mensajes o búsquedas del móvil.
+  Con contacto, SIEMPRE "si acepta"/"a quien quiera": que se pueda decir que no sin pasar nada.
+- Ropa: como mucho quitarse prendas normales (camiseta, sudadera, calcetines...). Nunca quedarse en ropa interior.
+- Nada de mandar fotos o mensajes íntimos a gente de fuera, nada con menores, sin consentimiento o con desconocidos.
 - Sin presuponer orientación: "la persona que te gusta", "con quien", nunca "chica/chico" por defecto.
+- Este es el NIVEL DE PICANTE que buscamos (no copies las ideas):
+  - ¿Con quién de aquí harías un trío? Tienes que decir los dos nombres.
+  - ¿Cuál es la fantasía que nunca te has atrevido a pedir en la cama?
+  - Yo nunca he follado en un sitio donde podían pillarme.
+  - ¿Quién es más probable que tenga un juguete escondido en la mesita?
+  - Dale un beso en el cuello a quien quieras. Si se deja, claro.
+  - Susúrrale a {otro} lo que le harías si estuvierais solos. El grupo le pregunta qué tal.
 
 ## Prompt base
 

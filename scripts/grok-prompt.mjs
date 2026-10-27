@@ -23,7 +23,9 @@ const cards = readCards('es', kind);
 const sameLevel = cards.filter((c) => c.level === level);
 // Ejemplos: los del mismo nivel (barajados); si hay pocos, completamos con niveles cercanos.
 const pool = [...sameLevel.sort(() => Math.random() - 0.5), ...cards.filter((c) => Math.abs(c.level - level) === 1)];
-const examples = pool.slice(0, 6).map((c) => `- ${c.text}`).join('\n');
+// En el nivel 5 los ejemplos van en la regla de contenido: las cartas que hay son más flojas de lo que buscamos.
+const examples =
+  level === 5 ? '(ver los ejemplos de nivel en las REGLAS)' : pool.slice(0, 6).map((c) => `- ${c.text}`).join('\n');
 const existing = cards.map((c) => `- ${c.text}`).join('\n');
 // Ideas del mismo nivel en otros tipos: en la Ronda mixta salen juntas, así que tampoco se pueden repetir.
 const others = Object.keys(KINDS)
