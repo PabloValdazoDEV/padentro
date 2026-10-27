@@ -321,5 +321,42 @@
     "id": "rg5-004",
     "level": 5,
     "text": "Quien mire el móvil tiene que leer en voz alta su último mensaje con un ligue."
+  },
+  {
+    "id": "rg5-005",
+    "level": 5,
+    "text": "{jugador} y {otro} son pareja hasta el final: se sientan juntos y se llaman 'cariño'. Quien se olvide, bebe."
+  },
+  {
+    "id": "rg5-006",
+    "level": 5,
+    "text": "Quien se ponga rojo/a cuando se hable de sexo, bebe. Lo decide el grupo."
+  },
+  {
+    "id": "rg5-007",
+    "level": 5,
+    "text": "Cada vez que alguien diga el nombre de un/a ex, bebe 2 tragos."
+  },
+  {
+    "id": "rg5-008",
+    "level": 5,
+    "text": "Antes de beber hay que decir una cosa que te pone. Sin repetir ninguna.",
+    "alcohol": true
+  },
+  {
+    "id": "rg5-009",
+    "level": 5,
+    "text": "Al contestar una carta sobre alguien de aquí, hay que mirarle a los ojos. Quien aparte la mirada, bebe."
+  },
+  {
+    "id": "rg5-010",
+    "level": 5,
+    "text": "{jugador} elige a alguien: cada vez que esa persona beba, tiene que guiñarle el ojo.",
+    "alcohol": true
+  },
+  {
+    "id": "rg5-011",
+    "level": 5,
+    "text": "Hasta el final, todos hablan con voz sexy. Quien se olvide, bebe."
   }
 ]

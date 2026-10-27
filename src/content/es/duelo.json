@@ -353,5 +353,55 @@
     "id": "d5-004",
     "level": 5,
     "text": "{jugador} contra {otro}: cada uno cuenta su cita más desastrosa. La peor gana."
+  },
+  {
+    "id": "d5-005",
+    "level": 5,
+    "text": "{jugador} contra {otro}: susurrad algo sexy al oído de quien elija el grupo. Esa persona decide quién gana."
+  },
+  {
+    "id": "d5-006",
+    "level": 5,
+    "text": "{jugador} contra {otro}: el piropo más guarro (sin pasarse) a alguien de aquí. Vota el grupo."
+  },
+  {
+    "id": "d5-007",
+    "level": 5,
+    "text": "{jugador} contra {otro}: quien diga más sitios raros donde ha follado en 15 segundos gana."
+  },
+  {
+    "id": "d5-008",
+    "level": 5,
+    "text": "{jugador} contra {otro}: aguantad la mirada a un palmo de la cara. El primero que se ría o se aparte pierde."
+  },
+  {
+    "id": "d5-009",
+    "level": 5,
+    "text": "{jugador} contra {otro}: leed en voz alta vuestro último chat con un ligue. Gana el más caliente."
+  },
+  {
+    "id": "d5-010",
+    "level": 5,
+    "text": "{jugador} contra {otro}: quitaos la sudadera o la chaqueta de la forma más sexy posible. Vota el grupo."
+  },
+  {
+    "id": "d5-011",
+    "level": 5,
+    "text": "{jugador} contra {otro}: quien tenga más chats abiertos con ligues ahora mismo gana. Se cuentan delante de todos."
+  },
+  {
+    "id": "d5-012",
+    "level": 5,
+    "text": "{jugador} contra {otro}: el grupo vota quién besa mejor. Sin pruebas... o con, si los dos queréis."
+  },
+  {
+    "id": "d5-013",
+    "level": 5,
+    "text": "{jugador} contra {otro}: decid la frase más sexy usando solo nombres de comida. Vota el grupo."
+  },
+  {
+    "id": "d5-014",
+    "level": 5,
+    "text": "{jugador} contra {otro}: a la de tres, decid a quién de aquí os liaríais. Si coincidís, bebéis los dos."
   }
 ]
