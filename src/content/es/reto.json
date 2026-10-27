@@ -572,11 +572,6 @@
     "text": "Enseña la última conversación que borraste o archivaste y explica por qué."
   },
   {
-    "id": "r5-001",
-    "level": 5,
-    "text": "Dale un beso en la mejilla a quien te parezca más guapo/a de aquí... si acepta."
-  },
-  {
     "id": "r5-002",
     "level": 5,
     "text": "Haz el bailecito más sexy que sepas durante 15 segundos."
@@ -620,5 +615,81 @@
     "id": "r5-010",
     "level": 5,
     "text": "Elige a alguien para bailar pegados una canción entera. Si dice que no, bebes tú."
+  },
+  {
+    "id": "r5-011",
+    "level": 5,
+    "text": "Susúrrale a {otro} lo que le harías si os quedaseis solos/as esta noche. El grupo le pregunta qué tal."
+  },
+  {
+    "id": "r5-012",
+    "level": 5,
+    "text": "Enseña al grupo el último chat subido de tono de tu móvil (sin fotos íntimas)."
+  },
+  {
+    "id": "r5-013",
+    "level": 5,
+    "text": "Dale un beso en el cuello a quien quieras de aquí. Solo si se deja, claro."
+  },
+  {
+    "id": "r5-014",
+    "level": 5,
+    "text": "Enseña las tres últimas búsquedas de tu móvil que tengan que ver con ligar o sexo."
+  },
+  {
+    "id": "r5-015",
+    "level": 5,
+    "text": "Deja que {otro} se beba un chupito de tu ombligo o tu cuello, si los dos queréis.",
+    "alcohol": true
+  },
+  {
+    "id": "r5-016",
+    "level": 5,
+    "text": "Imita durante 15 segundos cómo ligarías con {otro} en una discoteca a las 4 de la mañana."
+  },
+  {
+    "id": "r5-017",
+    "level": 5,
+    "text": "Enseña al grupo el perfil de la última persona con la que hablaste en una app de ligar."
+  },
+  {
+    "id": "r5-018",
+    "level": 5,
+    "text": "Susúrrale a {otro} tu fantasía más atrevida en una sola frase."
+  },
+  {
+    "id": "r5-019",
+    "level": 5,
+    "text": "Elige a alguien y hazle un masaje en los hombros de 20 segundos, si se deja."
+  },
+  {
+    "id": "r5-020",
+    "level": 5,
+    "text": "Enseña la última story o nota de voz que mandaste a alguien con doble intención."
+  },
+  {
+    "id": "r5-021",
+    "level": 5,
+    "text": "El grupo elige a quién le das un abrazo por detrás, bien pegado, durante 10 segundos. Si acepta, claro."
+  },
+  {
+    "id": "r5-022",
+    "level": 5,
+    "text": "Enseña la foto más atrevida de tu galería que te atrevas a mostrar (nada de desnudos)."
+  },
+  {
+    "id": "r5-023",
+    "level": 5,
+    "text": "Pon la mano en la cintura de alguien 15 segundos mientras le miras a los ojos, si se deja."
+  },
+  {
+    "id": "r5-024",
+    "level": 5,
+    "text": "Deja que {otro} te susurre al oído algo que te ponga nervioso/a. Tienes que aguantar sin reírte."
+  },
+  {
+    "id": "r5-025",
+    "level": 5,
+    "text": "Lee en voz alta el último mensaje que le mandaste a un/a ex o a un ligue antiguo."
   }
 ]
