@@ -275,6 +275,106 @@
     "text": "¿Qué manía de cuando eras pequeño/a todavía conservas un poco?"
   },
   {
+    "id": "v1-056",
+    "level": 1,
+    "text": "¿Cuál es la bio más absurda que has puesto en una app de ligar?"
+  },
+  {
+    "id": "v1-057",
+    "level": 1,
+    "text": "Cuenta la vez que te equivocaste con el nombre de la otra persona en una cita."
+  },
+  {
+    "id": "v1-058",
+    "level": 1,
+    "text": "¿Cómo fue la primera vez que quedaste con alguien de una app?"
+  },
+  {
+    "id": "v1-059",
+    "level": 1,
+    "text": "¿Cuál es la foto de perfil más vergonzosa que has usado?"
+  },
+  {
+    "id": "v1-060",
+    "level": 1,
+    "text": "Cuenta la vez que te quedaste sin temas de conversación en una cita."
+  },
+  {
+    "id": "v1-061",
+    "level": 1,
+    "text": "¿Qué es lo más tonto que has mentido en una app de ligar?"
+  },
+  {
+    "id": "v1-062",
+    "level": 1,
+    "text": "¿Cuál es el match más inesperado que has tenido y cómo acabó?"
+  },
+  {
+    "id": "v1-063",
+    "level": 1,
+    "text": "¿Qué es lo más absurdo que has leído en el perfil de alguien?"
+  },
+  {
+    "id": "v1-064",
+    "level": 1,
+    "text": "¿Qué es lo más raro que te han preguntado nada más hacer match?"
+  },
+  {
+    "id": "v1-065",
+    "level": 1,
+    "text": "¿Cuál es el primer mensaje más cutre que has mandado o recibido?"
+  },
+  {
+    "id": "v1-066",
+    "level": 1,
+    "text": "Cuenta la vez que te aburriste tanto en una cita que te inventaste una excusa para irte."
+  },
+  {
+    "id": "v1-067",
+    "level": 1,
+    "text": "Cuenta la vez que te hicieron ghosting justo cuando creías que iba bien."
+  },
+  {
+    "id": "v1-068",
+    "level": 1,
+    "text": "Cuenta la vez que te acercaste a la persona equivocada al llegar a una cita."
+  },
+  {
+    "id": "v1-069",
+    "level": 1,
+    "text": "¿Cuál es la peor primera impresión que has dado o que te han dado?"
+  },
+  {
+    "id": "v1-070",
+    "level": 1,
+    "text": "Cuenta la vez que alguien se pasó la cita entera hablando de su ex."
+  },
+  {
+    "id": "v1-071",
+    "level": 1,
+    "text": "¿Cuál ha sido el plan de cita más fallido que has tenido?"
+  },
+  {
+    "id": "v1-072",
+    "level": 1,
+    "text": "Cuenta la vez que quedaste con alguien que no se parecía nada a sus fotos."
+  },
+  {
+    "id": "v1-073",
+    "level": 1,
+    "text": "¿Cuál es el motivo más raro por el que alguien te ha dejado de hablar?"
+  },
+  {
+    "id": "v1-074",
+    "level": 1,
+    "text": "¿Alguna vez has pedido a un amigo/a que te llamara para rescatarte de una cita?"
+  },
+  {
+    "id": "v1-075",
+    "level": 1,
+    "text": "¿Qué es lo más random que has descubierto stalkeando a alguien antes de quedar?"
+  },
+  {
     "id": "v2-001",
     "level": 2,
     "text": "¿Cuál es la peor borrachera que recuerdas?"
