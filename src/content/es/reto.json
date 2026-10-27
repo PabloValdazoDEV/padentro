@@ -537,6 +537,61 @@
     "text": "Haz de jefe/a de cocina de MasterChef gritando a un ayudante imaginario durante 15 segundos."
   },
   {
+    "id": "r2-045",
+    "level": 2,
+    "text": "Di dos verdades y una mentira sobre ti. Quien no adivine cuál es la mentira, bebe."
+  },
+  {
+    "id": "r2-046",
+    "level": 2,
+    "text": "Inventa una excusa para llegar dos horas tarde a una cita y defiéndela 20 segundos sin reírte."
+  },
+  {
+    "id": "r2-047",
+    "level": 2,
+    "text": "Cuenta una mentira sobre tu día con la cara más seria posible. Si alguien se la cree, reparte 2 tragos."
+  },
+  {
+    "id": "r2-048",
+    "level": 2,
+    "text": "Inventa una excusa épica por haber olvidado el cumpleaños de {otro} y díselo a la cara."
+  },
+  {
+    "id": "r2-049",
+    "level": 2,
+    "text": "Di tres razones falsas por las que no puedes quedar este finde, cada una más absurda que la anterior."
+  },
+  {
+    "id": "r2-050",
+    "level": 2,
+    "text": "Defiende durante 20 segundos que tienes un talento que no tienes. El grupo vota si cuela."
+  },
+  {
+    "id": "r2-051",
+    "level": 2,
+    "text": "Explica por qué has llegado tarde a este plan con la excusa más dramática que se te ocurra."
+  },
+  {
+    "id": "r2-052",
+    "level": 2,
+    "text": "Pídele perdón a {otro} de la forma más exagerada posible por algo que no ha pasado."
+  },
+  {
+    "id": "r2-053",
+    "level": 2,
+    "text": "Imita tu cara cuando te das cuenta de que has metido la pata hasta el fondo."
+  },
+  {
+    "id": "r2-054",
+    "level": 2,
+    "text": "Imita cómo saludas a alguien cuyo nombre no recuerdas mientras intentas disimularlo."
+  },
+  {
+    "id": "r2-055",
+    "level": 2,
+    "text": "Cuenta una historia inventada y cambia de versión cada vez que alguien te haga una pregunta."
+  },
+  {
     "id": "r3-001",
     "level": 3,
     "text": "Deja que el grupo lea tus últimos 5 chats (solo la lista)."
