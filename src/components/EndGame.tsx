@@ -4,6 +4,7 @@ import { haptic } from '../haptics';
 import { summaryImage } from '../share/image';
 import ShareSheet from './ShareSheet';
 import ShareIcon from './ShareIcon';
+import Sheet from './Sheet';
 
 export interface GameStats {
   cards: number;
@@ -35,9 +36,8 @@ export default function EndGame({ stats, premium, onContinue, onFinish, onPremiu
     .join('\n');
 
   return (
-    <div className="overlay">
-      <div className="modal sheet end-game">
-        <div className="sheet-grip" />
+    <>
+      <Sheet onClose={onContinue} className="end-game">
         <div className="modal-emoji">🏁</div>
         <h2>¿Fin de la partida?</h2>
         <div className="end-stats">
@@ -77,7 +77,7 @@ export default function EndGame({ stats, premium, onContinue, onFinish, onPremiu
             Terminar
           </button>
         </div>
-      </div>
+      </Sheet>
       {sharing && (
         <ShareSheet
           title="Compartir la partida"
@@ -87,6 +87,6 @@ export default function EndGame({ stats, premium, onContinue, onFinish, onPremiu
           onClose={() => setSharing(false)}
         />
       )}
-    </div>
+    </>
   );
 }

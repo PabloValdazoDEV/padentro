@@ -827,12 +827,41 @@ p {
   padding-top: 12px;
 }
 
+.sheet {
+  transition: transform 0.18s ease;
+  /* Sin "forwards": si la animación se queda fijada, no deja mover el panel al arrastrarlo. */
+  animation-fill-mode: backwards;
+}
+
+.sheet.dragging {
+  transition: none;
+}
+
+/* Zona táctil ancha; la barrita visible se pinta con ::before. */
 .sheet-grip {
+  align-self: stretch;
+  height: 24px;
+  margin: -12px 0 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: grab;
+  touch-action: none;
+}
+
+.sheet-grip::before {
+  content: '';
+  display: block;
   width: 40px;
   height: 5px;
+  margin: 0 auto;
   border-radius: 999px;
   background: var(--surface-2);
-  margin-bottom: 8px;
+}
+
+.overlay.closing {
+  opacity: 0;
+  transition: opacity 0.18s ease;
 }
 
 .penitencia-text {

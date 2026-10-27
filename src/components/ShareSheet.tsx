@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { siInstagram, siTelegram, siTiktok, siWhatsapp, siX, type SimpleIcon } from 'simple-icons';
 import { haptic } from '../haptics';
 import { shareImage } from '../share/image';
+import Sheet from './Sheet';
 
 interface Props {
   title: string;
@@ -56,47 +57,44 @@ export default function ShareSheet({ title, text, image, filename, onClose }: Pr
   };
 
   return (
-    <div className="overlay" onClick={onClose}>
-      <div className="modal sheet" onClick={(e) => e.stopPropagation()}>
-        <div className="sheet-grip" />
-        <h2>{title}</h2>
+    <Sheet onClose={onClose}>
+      <h2>{title}</h2>
 
-        {preview ? (
-          <>
-            <img className="share-preview" src={preview} alt="Imagen para compartir" />
-            <p className="muted">Mantén pulsada la imagen para guardarla o compartirla en Instagram o TikTok.</p>
-          </>
-        ) : (
-          <div className="networks">
-            {networks.map((n) => (
-              <button key={n.label} className="network" onClick={n.action} disabled={!blob && n.action === shareAsImage}>
-                <span className="network-icon" style={{ background: `#${n.icon.hex}` }}>
-                  <svg viewBox="0 0 24 24" aria-hidden>
-                    <path d={n.icon.path} fill="#fff" />
-                  </svg>
-                </span>
-                <small>{n.label}</small>
-              </button>
-            ))}
-          </div>
-        )}
-
-        <div className="share-extra">
-          {typeof navigator.share === 'function' && (
-            <button className="btn btn-secondary" onClick={shareAsImage}>
-              Más opciones
+      {preview ? (
+        <>
+          <img className="share-preview" src={preview} alt="Imagen para compartir" />
+          <p className="muted">Mantén pulsada la imagen para guardarla o compartirla en Instagram o TikTok.</p>
+        </>
+      ) : (
+        <div className="networks">
+          {networks.map((n) => (
+            <button key={n.label} className="network" onClick={n.action} disabled={!blob && n.action === shareAsImage}>
+              <span className="network-icon" style={{ background: `#${n.icon.hex}` }}>
+                <svg viewBox="0 0 24 24" aria-hidden>
+                  <path d={n.icon.path} fill="#fff" />
+                </svg>
+              </span>
+              <small>{n.label}</small>
             </button>
-          )}
-          {navigator.clipboard && (
-            <button className="btn btn-secondary" onClick={copy}>
-              {copied ? '✓ Copiado' : 'Copiar texto'}
-            </button>
-          )}
+          ))}
         </div>
-        <button className="btn btn-ghost" onClick={onClose}>
-          Cerrar
-        </button>
+      )}
+
+      <div className="share-extra">
+        {typeof navigator.share === 'function' && (
+          <button className="btn btn-secondary" onClick={shareAsImage}>
+            Más opciones
+          </button>
+        )}
+        {navigator.clipboard && (
+          <button className="btn btn-secondary" onClick={copy}>
+            {copied ? '✓ Copiado' : 'Copiar texto'}
+          </button>
+        )}
       </div>
-    </div>
+      <button className="btn btn-ghost" onClick={onClose}>
+        Cerrar
+      </button>
+    </Sheet>
   );
 }
