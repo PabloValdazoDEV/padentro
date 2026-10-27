@@ -211,11 +211,6 @@ p {
   width: 44px;
 }
 
-.topbar-actions {
-  display: flex;
-  gap: 6px;
-}
-
 /* ---------- Home ---------- */
 .home {
   justify-content: space-between;
@@ -525,11 +520,6 @@ p {
 
 .listen:active {
   transform: scale(0.95);
-}
-
-.voice-toggle.on {
-  background: var(--surface-2);
-  box-shadow: 0 0 0 2px var(--mint);
 }
 
 .choice {
