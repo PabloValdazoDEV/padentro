@@ -8,11 +8,14 @@ export const speechSupported = !!synth;
 // Android a veces da el idioma como "es_ES".
 const langOf = (v: SpeechSynthesisVoice) => v.lang.replace('_', '-');
 
-/** Voces en español que tiene el móvil, primero las de España. */
+/**
+ * Voces de España que tiene el móvil. Las latinoamericanas solo si no hay ninguna de España,
+ * para que al menos se pueda leer.
+ */
 export function spanishVoices(): SpeechSynthesisVoice[] {
-  return (synth?.getVoices() ?? [])
-    .filter((v) => langOf(v).toLowerCase().startsWith('es'))
-    .sort((a, b) => Number(langOf(b) === 'es-ES') - Number(langOf(a) === 'es-ES') || a.name.localeCompare(b.name));
+  const spanish = (synth?.getVoices() ?? []).filter((v) => langOf(v).toLowerCase().startsWith('es'));
+  const spain = spanish.filter((v) => langOf(v) === 'es-ES');
+  return (spain.length ? spain : spanish).sort((a, b) => a.name.localeCompare(b.name));
 }
 
 /** La que ha elegido el usuario en Ajustes o, si no hay ninguna (o ya no existe), la primera de España. */
