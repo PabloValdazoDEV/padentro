@@ -3,6 +3,7 @@ import { dislikedReport } from '../game/disliked';
 import { restorePurchases } from '../monetization';
 import { speechSupported } from '../speech';
 import Toggle from './Toggle';
+import VoicePicker from './VoicePicker';
 import Sheet from './Sheet';
 
 interface Props {
@@ -63,6 +64,7 @@ export default function Settings(props: Props) {
             onChange={props.onVoice}
           />
         )}
+        {speechSupported && <VoicePicker />}
       </div>
       {disliked.size > 0 && (
         <div className="disliked">
