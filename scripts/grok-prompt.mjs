@@ -60,7 +60,7 @@ const pool = [...sameLevel.sort(() => Math.random() - 0.5), ...cards.filter((c) 
 const examples =
   level === 5 ? '(ver los ejemplos de nivel en las REGLAS)' : pool.slice(0, 6).map((c) => `- ${c.text}`).join('\n');
 // El nivel 5 va de sexo y ningún otro nivel lo toca: basta con no repetir las suyas (y el prompt queda corto).
-const existing = (level === 5 ? sameLevel : cards).map((c) => `- ${c.text}`).join('\n');
+const existing = (level === 5 ? sameLevel : cards.filter((c) => c.level !== 5)).map((c) => `- ${c.text}`).join('\n');
 // Ideas del mismo nivel en otros tipos: en la Ronda mixta salen juntas, así que tampoco se pueden repetir.
 const others = Object.keys(KINDS)
   .filter((k) => k !== kind)
