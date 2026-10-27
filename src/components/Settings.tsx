@@ -1,5 +1,5 @@
 import { restorePurchases } from '../monetization';
-import { speechSupported } from '../speech';
+import { canRead, speechSupported } from '../speech';
 import Toggle from './Toggle';
 import VoicePicker from './VoicePicker';
 import Sheet from './Sheet';
@@ -43,7 +43,7 @@ export default function Settings(props: Props) {
           checked={props.sounds}
           onChange={props.onSounds}
         />
-        {speechSupported && (
+        {canRead && (
           <Toggle
             label="Leer las cartas en voz alta"
             description="Cada carta se lee sola al salir. Si no, toca 🔊 en la carta"

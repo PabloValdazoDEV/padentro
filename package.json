@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "validate": "node scripts/validate-content.mjs",
     "import": "node scripts/import-cards.mjs",
-    "prompt": "node scripts/grok-prompt.mjs"
+    "prompt": "node scripts/grok-prompt.mjs",
+    "audio": "node scripts/generate-audio.mjs"
   },
   "dependencies": {
     "@capacitor/core": "7.6.9",

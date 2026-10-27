@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { haptic } from '../haptics';
-import { chooseVoice, currentVoice, onVoicesChanged, spanishVoices, speak } from '../speech';
+import { chooseVoice, currentVoice, hasRecordedAudio, onVoicesChanged, spanishVoices, speak } from '../speech';
 
 const REGIONS: Record<string, string> = {
   'es-ES': 'España',
@@ -35,7 +35,8 @@ export default function VoicePicker() {
 
   return (
     <div className="voice-picker">
-      <label htmlFor="voice-select">Voz</label>
+      {/* Con audio grabado, la voz del móvil solo lee las cartas que llevan nombres. */}
+      <label htmlFor="voice-select">{hasRecordedAudio ? 'Voz para las cartas con nombres' : 'Voz'}</label>
       <div className="voice-picker-row">
         <select
           id="voice-select"

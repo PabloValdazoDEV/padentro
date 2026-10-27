@@ -16,7 +16,7 @@ import { INTERSTITIAL_MIN_CARDS, showInterstitial } from '../monetization';
 import { maybeRequestReview } from '../review';
 import { APP } from '../../app.config';
 import { cardImage } from '../share/image';
-import { speak, speechSupported, stopSpeaking } from '../speech';
+import { canRead, speakCard, stopSpeaking } from '../speech';
 import type { Card, CardKind, Level, ModeId, Player } from '../types';
 
 interface Props {
@@ -142,8 +142,11 @@ export default function Game(props: Props) {
     return prefix + d.text;
   };
 
+  // Con audio grabado no se dice el nombre delante: ya se ve en pantalla y el audio no lo lleva.
+  const sayCard = (d: Drawn) => speakCard(d.card.id, sober, speechText(d));
+
   useEffect(() => {
-    if (voice && drawn) speak(speechText(drawn));
+    if (voice && drawn) sayCard(drawn);
   }, [voice, drawn]);
   useEffect(() => stopSpeaking, []);
   // Si se apaga la lectura desde los ajustes, que se calle al momento.
@@ -291,12 +294,12 @@ export default function Game(props: Props) {
               <p className="card-text">{drawn.text}</p>
               <div className="card-foot">
                 {hint && <p className="card-hint">{hint}</p>}
-                {speechSupported && (
+                {canRead && (
                   <button
                     className="listen"
                     onClick={() => {
                       haptic();
-                      speak(speechText(drawn));
+                      sayCard(drawn);
                     }}
                   >
                     🔊 Escuchar

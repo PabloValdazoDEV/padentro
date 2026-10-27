@@ -44,12 +44,16 @@ function offline(): Plugin {
     apply: 'build',
     writeBundle(options, bundle) {
       const dir = options.dir!;
-      const files = [...Object.keys(bundle), ...readdirSync('public')].filter((f) => !f.endsWith('.map'));
+      // Los audios de las cartas (public/audio) no se precargan: son muchos megas. Se guardan al sonar.
+      const publicFiles = readdirSync('public', { withFileTypes: true }).filter((d) => d.isFile()).map((d) => d.name);
+      const files = [...Object.keys(bundle), ...publicFiles].filter((f) => !f.endsWith('.map'));
       // La versión cambia si cambia cualquier archivo: así el móvil descarga la nueva y borra la vieja.
       const hash = createHash('sha1');
       for (const f of files.sort()) hash.update(f).update(readFileSync(join(dir, f)));
       const version = hash.digest('hex').slice(0, 10);
       const sw = `const CACHE = 'app-${version}';
+// Los audios van aparte para que no se borren con cada versión nueva.
+const AUDIO = 'audio';
 const FILES = ${JSON.stringify(['./', ...files])};
 
 self.addEventListener('install', (e) => {
@@ -59,7 +63,7 @@ self.addEventListener('install', (e) => {
 self.addEventListener('activate', (e) => {
   e.waitUntil(
     caches.keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE).map((k) => caches.delete(k))))
+      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE && k !== AUDIO).map((k) => caches.delete(k))))
       .then(() => self.clients.claim()),
   );
 });
@@ -73,7 +77,20 @@ self.addEventListener('fetch', (e) => {
   }
   // ignoreVary: los scripts se piden con cabecera Origin y el servidor responde con "Vary: Origin";
   // sin esto la caché no los reconoce y sin conexión no cargan.
-  e.respondWith(caches.match(req, { ignoreVary: true }).then((hit) => hit || fetch(req)));
+  e.respondWith(
+    caches.match(req, { ignoreVary: true }).then(
+      (hit) =>
+        hit ||
+        fetch(req).then((res) => {
+          const isAudio = res.headers.get('content-type')?.startsWith('audio/');
+          if (res.ok && isAudio && new URL(req.url).pathname.includes('/audio/')) {
+            const copy = res.clone();
+            caches.open(AUDIO).then((c) => c.put(req, copy));
+          }
+          return res;
+        }),
+    ),
+  );
 });
 `;
       writeFileSync(join(dir, 'sw.js'), sw);
