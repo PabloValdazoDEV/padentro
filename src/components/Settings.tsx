@@ -8,6 +8,8 @@ interface Props {
   premium: boolean;
   sober: boolean;
   haptics: boolean;
+  sounds: boolean;
+  onSounds: (v: boolean) => void;
   voice: boolean;
   onVoice: (v: boolean) => void;
   disliked: ReadonlySet<string>;
@@ -48,6 +50,12 @@ export default function Settings(props: Props) {
             onChange={onSober}
           />
           <Toggle label="Vibración" checked={haptics} onChange={onHaptics} />
+          <Toggle
+            label="Efectos de sonido"
+            description="No cortan la música que tengáis puesta"
+            checked={props.sounds}
+            onChange={props.onSounds}
+          />
           {speechSupported && (
             <Toggle
               label="Leer las cartas en voz alta"

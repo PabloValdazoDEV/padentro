@@ -23,6 +23,7 @@ export default function App() {
   const [sober, setSober] = usePersistentState('sober', false);
   const [haptics, setHaptics] = usePersistentState('haptics', true);
   const [voice, setVoice] = usePersistentState('voice', false);
+  const [sounds, setSounds] = usePersistentState('sounds', true);
   /** Partida a retomar al entrar en la pantalla de juego (null = partida nueva). */
   const [resume, setResume] = useState<SavedGame | null>(null);
   const [premium, setPremium] = useState(isPremium);
@@ -117,6 +118,8 @@ export default function App() {
           premium={premium}
           sober={sober}
           haptics={haptics}
+          sounds={sounds}
+          onSounds={setSounds}
           voice={voice}
           onVoice={setVoice}
           disliked={disliked}

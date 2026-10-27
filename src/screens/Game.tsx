@@ -11,6 +11,7 @@ import { balancedPicker, Deck, fillTemplate, usesPlayer } from '../game/deck';
 import { clearSavedGame, saveGame, type SavedGame } from '../game/saved';
 import { soberize } from '../game/sober.js';
 import { haptic } from '../haptics';
+import { playSound } from '../sounds';
 import { INTERSTITIAL_MIN_CARDS, showInterstitial } from '../monetization';
 import { maybeRequestReview } from '../review';
 import { APP } from '../../app.config';
@@ -145,13 +146,23 @@ export default function Game(props: Props) {
   }, [voice, drawn]);
   useEffect(() => stopSpeaking, []);
 
+  // Duelos y normas tienen su propio sonido, justo después del de pasar carta.
+  const kindSound = useRef(false);
+  useEffect(() => {
+    // La primera carta sale sin tocar nada: sin gesto del usuario el navegador no deja sonar.
+    if (!kindSound.current) return void (kindSound.current = true);
+    if (drawn?.card.kind === 'duelo' || drawn?.card.kind === 'regla') playSound(drawn.card.kind, 0.15);
+  }, [drawn]);
+
   const choose = (kind: CardKind) => {
     haptic('medium');
+    playSound('pick');
     setCurrent(draw(kind, turn));
   };
 
   const next = () => {
     haptic('medium');
+    playSound('next');
     if (pos < history.length - 1) {
       setPos(pos + 1);
       return;
@@ -165,6 +176,7 @@ export default function Game(props: Props) {
   const prev = () => {
     if (pos === 0) return;
     haptic('medium');
+    playSound('prev');
     setPos(pos - 1);
   };
 
@@ -175,6 +187,7 @@ export default function Game(props: Props) {
     setTimeout(() => setToast(false), 1600);
     // Otra carta para el mismo turno: descartar no hace perder el turno.
     haptic('medium');
+    playSound('next');
     setCurrent(draw(mode === 'verdad-reto' ? drawn.card.kind : nextKind(), turn));
   };
 
@@ -309,6 +322,7 @@ export default function Game(props: Props) {
             className="btn btn-secondary"
             onClick={() => {
               haptic('heavy');
+              playSound('penitencia');
               setPenitencia(true);
             }}
           >

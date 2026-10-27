@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import { PENITENCIAS } from '../content';
 import { fillTemplate, type OtherPicker } from '../game/deck';
 import { haptic } from '../haptics';
+import { playSound } from '../sounds';
 import type { Player } from '../types';
 
 interface Props {
@@ -42,6 +43,7 @@ export default function Penitencia({ player, players, pickOther, onClose }: Prop
           className="btn btn-ghost"
           onClick={() => {
             haptic();
+            playSound('penitencia');
             setRaw(pick(raw));
           }}
         >
