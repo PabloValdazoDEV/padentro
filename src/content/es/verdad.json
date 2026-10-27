@@ -785,11 +785,6 @@
     "text": "¿De qué te arrepientes más de lo que le has dicho o hecho a alguien de este grupo?"
   },
   {
-    "id": "v5-001",
-    "level": 5,
-    "text": "¿Con quién de este grupo te liarías si mañana se acabara el mundo?"
-  },
-  {
     "id": "v5-002",
     "level": 5,
     "text": "¿Cuál ha sido el sitio más raro donde te has liado con alguien?"
@@ -820,19 +815,9 @@
     "text": "¿Te has liado alguna vez con alguien solo para dar celos?"
   },
   {
-    "id": "v5-008",
-    "level": 5,
-    "text": "¿Cuánto tiempo llevas sin liarte con nadie? Sé sincero/a."
-  },
-  {
     "id": "v5-009",
     "level": 5,
     "text": "¿Alguna vez te ha pillado alguien en pleno momento? ¿Quién?"
-  },
-  {
-    "id": "v5-010",
-    "level": 5,
-    "text": "¿Quién de aquí crees que es más fogoso/a? Di el nombre."
   },
   {
     "id": "v5-011",
@@ -843,5 +828,125 @@
     "id": "v5-012",
     "level": 5,
     "text": "¿Prefieres una noche loca con alguien desconocido o repetir con tu ex? Explica."
+  },
+  {
+    "id": "v5-013",
+    "level": 5,
+    "text": "¿Cuál es la fantasía que te da más vergüenza confesar aunque te ponga un montón?"
+  },
+  {
+    "id": "v5-014",
+    "level": 5,
+    "text": "¿Con quién de aquí harías un trío si pudieras elegir a los dos? Di los nombres."
+  },
+  {
+    "id": "v5-015",
+    "level": 5,
+    "text": "¿Qué es lo más atrevido que has pedido en la cama y te han dicho que no?"
+  },
+  {
+    "id": "v5-016",
+    "level": 5,
+    "text": "Cuenta la vez que te liaste con alguien y al día siguiente no te acordabas de su nombre."
+  },
+  {
+    "id": "v5-017",
+    "level": 5,
+    "text": "¿Quién de este grupo crees que es el/la mejor en la cama? Sin miramientos."
+  },
+  {
+    "id": "v5-018",
+    "level": 5,
+    "text": "¿Cuál ha sido el sitio más arriesgado donde has tenido sexo y casi os pillan?"
+  },
+  {
+    "id": "v5-019",
+    "level": 5,
+    "text": "¿Con quién de aquí tienes más tensión sexual aunque no lo digas nunca?"
+  },
+  {
+    "id": "v5-020",
+    "level": 5,
+    "text": "¿Qué manía tuya en la cama sorprendería a todo el mundo si la contaras?"
+  },
+  {
+    "id": "v5-021",
+    "level": 5,
+    "text": "Cuenta tu peor momento con un ligue de una noche. Sin filtros."
+  },
+  {
+    "id": "v5-022",
+    "level": 5,
+    "text": "¿Quién de aquí te pone más de lo que debería y por qué?"
+  },
+  {
+    "id": "v5-023",
+    "level": 5,
+    "text": "¿Cuál es el mensaje más caliente que has recibido y de quién?"
+  },
+  {
+    "id": "v5-024",
+    "level": 5,
+    "text": "¿Con quién de aquí te liarías solo una noche y con quién más de una?"
+  },
+  {
+    "id": "v5-025",
+    "level": 5,
+    "text": "Cuenta la vez que alguien te sorprendió en la cama, para bien… o para mal."
+  },
+  {
+    "id": "v5-026",
+    "level": 5,
+    "text": "¿Has usado alguna app de ligar solo para cotillear y acabaste liándola? Cuenta."
+  },
+  {
+    "id": "v5-027",
+    "level": 5,
+    "text": "¿Quién de aquí crees que tiene más fantasías raras de las que confiesa?"
+  },
+  {
+    "id": "v5-028",
+    "level": 5,
+    "text": "¿Cuál es la cosa más atrevida que has hecho en un viaje o de fiesta fuera?"
+  },
+  {
+    "id": "v5-029",
+    "level": 5,
+    "text": "¿Te has liado alguna vez con alguien sabiendo que tenía pareja? Sé sincero/a."
+  },
+  {
+    "id": "v5-030",
+    "level": 5,
+    "text": "¿Qué secreto de la cama no le has contado ni a tu mejor amigo/a?"
+  },
+  {
+    "id": "v5-031",
+    "level": 5,
+    "text": "Cuenta la historia de tu primera vez que todavía te da vergüenza recordar."
+  },
+  {
+    "id": "v5-032",
+    "level": 5,
+    "text": "¿Qué es lo que más te pone de alguien y nunca se lo dirías a la cara?"
+  },
+  {
+    "id": "v5-033",
+    "level": 5,
+    "text": "¿Guardas todavía fotos o mensajes subidos de tono de algún ex? ¿Por qué?"
+  },
+  {
+    "id": "v5-034",
+    "level": 5,
+    "text": "¿Quién de aquí crees que tiene más experiencia de la que aparenta?"
+  },
+  {
+    "id": "v5-035",
+    "level": 5,
+    "text": "Cuenta una vez que el sexo fue tan malo que casi te da la risa."
+  },
+  {
+    "id": "v5-036",
+    "level": 5,
+    "text": "¿Qué harías con {otro} si os quedaseis solos/as esta noche y nadie se enterase?"
   }
 ]
