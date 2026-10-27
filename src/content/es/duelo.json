@@ -333,5 +333,25 @@
     "id": "d4-016",
     "level": 4,
     "text": "{jugador} contra {otro}: el grupo vota quién es más probable que acabe con alguien de este grupo. Pierde el más votado."
+  },
+  {
+    "id": "d5-001",
+    "level": 5,
+    "text": "{jugador} contra {otro}: el mejor intento de ligar con el grupo en 10 segundos. Vota el resto."
+  },
+  {
+    "id": "d5-002",
+    "level": 5,
+    "text": "{jugador} contra {otro}: quien haya tenido más rollos este año gana. Si hay duda, decide el grupo."
+  },
+  {
+    "id": "d5-003",
+    "level": 5,
+    "text": "{jugador} contra {otro}: el bailecito más sexy. El grupo elige al ganador."
+  },
+  {
+    "id": "d5-004",
+    "level": 5,
+    "text": "{jugador} contra {otro}: cada uno cuenta su cita más desastrosa. La peor gana."
   }
 ]

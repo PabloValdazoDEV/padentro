@@ -1,3 +1,5 @@
+import { useState } from 'react';
+import Sheet from '../components/Sheet';
 import { LEVELS } from '../content/levels';
 import { MODES } from '../content/modes';
 import { haptic } from '../haptics';
@@ -20,6 +22,8 @@ interface Props {
 
 export default function Setup(props: Props) {
   const { mode, levels, unlocked, sober, players } = props;
+  /** Nivel pendiente de que el grupo confirme que se apunta (Sin filtro). */
+  const [asking, setAsking] = useState<Level | null>(null);
 
   const toggle = (l: Level) => {
     if (levels.includes(l)) {
@@ -91,6 +95,7 @@ export default function Setup(props: Props) {
               onClick={() => {
                 haptic();
                 if (locked) props.onLocked();
+                else if (l.consent && !active) setAsking(l.level);
                 else toggle(l.level);
               }}
             >
@@ -116,6 +121,30 @@ export default function Setup(props: Props) {
           Empezar
         </button>
       </div>
+
+      {asking && (
+        <Sheet onClose={() => setAsking(null)}>
+          <div className="modal-emoji">🔥</div>
+          <h2>¿Todo el grupo se apunta?</h2>
+          <p className="muted">
+            Sin filtro trae preguntas y retos sobre sexo y ligoteo entre vosotros. Activadlo solo si todos estáis
+            de acuerdo. Nadie tiene que hacer nada que no quiera: siempre se puede pasar con 🎭.
+          </p>
+          <button
+            className="btn btn-primary"
+            onClick={() => {
+              haptic('medium');
+              toggle(asking);
+              setAsking(null);
+            }}
+          >
+            Sí, todos de acuerdo
+          </button>
+          <button className="btn btn-ghost" onClick={() => setAsking(null)}>
+            Mejor no
+          </button>
+        </Sheet>
+      )}
     </main>
   );
 }

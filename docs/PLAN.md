@@ -7,8 +7,9 @@
 | Plataforma   | Web (PWA) → iOS y Android con **Capacitor**, con un solo código          |
 | Stack        | React 19 + Vite + TypeScript, sin backend; todo el contenido va en JSON  |
 | Modos        | Verdad o Reto, Yo nunca, ¿Quién es más probable?, Ronda mixta            |
-| Niveles      | Suave · Fiesta (gratis) · Picante · Extremo (premium)                    |
+| Niveles      | Suave · Fiesta (gratis) · Picante · Extremo · Sin filtro (premium)       |
 | "Picante"    | Íntimo y comprometido, **nunca sexual** (facilita la aprobación en las tiendas) |
+| "Sin filtro" | Sexo y ligoteo, insinuante y **nunca explícito**; pide que todo el grupo acepte. Obliga a clasificar la app como +18 |
 | Jugadores    | Solo nombre, guardados en el dispositivo                                 |
 | Idioma       | Español; la estructura `src/content/<idioma>/` permite añadir más        |
 | Público      | 18–30 años, España                                                       |

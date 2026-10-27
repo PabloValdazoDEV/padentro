@@ -53,7 +53,7 @@ export default function Home({ premium, savedGame, onContinue, onPlay, onPlayers
         </button>
         {!premium && (
           <button className="btn btn-premium" onClick={tap(onPremium)}>
-            🌶️ Desbloquear Picante y Extremo
+            🔥 Desbloquear los niveles +18
           </button>
         )}
       </div>

@@ -40,7 +40,25 @@ Tienen que ser rápidas (menos de 30 s), sin alcohol y sin gastar dinero.
 1. **Suave**: para romper el hielo. Vale con gente que no se conoce mucho.
 2. **Fiesta**: anécdotas de fiesta, ligar, vergüenza ajena, móviles.
 3. **Picante**: preguntas íntimas y comprometidas (sentimientos, ex, celos, secretos, opiniones del grupo). **Sin contenido sexual.**
-4. **Extremo**: sin filtro. Traiciones, verdades incómodas entre el grupo, retos con el móvil que dan miedo. **Sin contenido sexual.**
+4. **Extremo**: lo más bestia. Traiciones, verdades incómodas entre el grupo, retos con el móvil que dan miedo. **Sin contenido sexual.**
+5. **Sin filtro**: sexo y ligoteo, insinuante pero nunca explícito. La app pide que todo el grupo esté de acuerdo antes de activarlo.
+
+## Regla de contenido
+
+El script mete una u otra en el prompt según el nivel. Lo de "insinuante, no explícito" es lo que aceptan
+Apple y Google con clasificación +18; lo explícito o pornográfico hace que rechacen la app.
+
+### niveles-1-4
+- NADA de contenido sexual ni desnudos. Lo "picante" es emocional y social, no sexual.
+
+### nivel-5
+- Tema: sexo, ligues, atracción y tensión dentro del grupo. Insinuante y pícaro, NUNCA explícito:
+  nada de describir actos sexuales, partes del cuerpo con detalle ni lenguaje porno.
+- Retos con contacto físico (besos, sentarse encima, bailar pegados...) siempre con consentimiento:
+  "si acepta", "a quien quiera" o que la otra persona pueda decir que no sin pasar nada.
+- Nada de desnudarse más allá de una prenda de ropa normal (sudadera, calcetines...), ni fotos o
+  mensajes íntimos a gente de fuera, ni nada con menores, sin consentimiento o con desconocidos.
+- Sin presuponer orientación: "la persona que te gusta", "con quien", nunca "chica/chico" por defecto.
 
 ## Prompt base
 
@@ -61,7 +79,8 @@ NIVELES
 1 Suave: rompehielos, apto para gente que acaba de conocerse.
 2 Fiesta: anécdotas de fiesta, ligar, vergüenza, redes sociales, resacas.
 3 Picante: íntimo y comprometido (ex, crushes, celos, secretos, inseguridades, lo que piensas del grupo).
-4 Extremo: sin filtro; verdades incómodas, cotilleos, retos con el móvil que dan miedo.
+4 Extremo: lo más bestia; verdades incómodas, cotilleos, retos con el móvil que dan miedo.
+5 Sin filtro: sexo y ligoteo entre el grupo, pícaro e insinuante pero nunca explícito.
 
 TIPO "<TIPO>"
 <NOTAS_TIPO>
@@ -77,7 +96,7 @@ ASÍ NO (errores de tandas anteriores):
 
 REGLAS
 - Español de España, tono coloquial y gracioso, como hablaría un grupo de amigos de 20 años.
-- NADA de contenido sexual ni desnudos. Lo "picante" es emocional y social, no sexual.
+<REGLA_CONTENIDO>
 - Nada ilegal, peligroso, humillante por físico/raza/orientación ni que obligue a gastar dinero.
 - No fomentes beber en exceso: como mucho "bebe X tragos" (máximo 5). Nunca "bébete el vaso entero" ni chupitos de golpe.
 - Para mandar beber usa SIEMPRE estas formas exactas: "bebe", "bebes", "beben", "bebe N tragos", "bebe un trago" o "reparte N tragos".

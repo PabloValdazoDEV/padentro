@@ -22,10 +22,10 @@ export default function Paywall({ onClose, onPurchased, onRewarded }: Props) {
   return (
     <div className="overlay" onClick={onClose}>
       <div className="modal" onClick={(e) => e.stopPropagation()}>
-        <div className="modal-emoji">🌶️💀</div>
-        <h2>Desbloquea Picante y Extremo</h2>
+        <div className="modal-emoji">🌶️💀🔥</div>
+        <h2>Desbloquea los niveles +18</h2>
         <ul className="perks">
-          <li>Todas las cartas de los niveles Picante y Extremo</li>
+          <li>Picante, Extremo y Sin filtro, con todas sus cartas</li>
           <li>Sin anuncios</li>
           <li>Todos los packs nuevos que salgan</li>
         </ul>

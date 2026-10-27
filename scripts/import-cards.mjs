@@ -2,9 +2,9 @@
 //
 // Uso: npm run import -- <tipo> <archivo.json> [idioma]
 //   tipo: verdad | reto | yo-nunca | mas-probable | todos | duelo | regla
-//   archivo.json: array de { "level": 1-4, "text": "...", "alcohol"?: true }
+//   archivo.json: array de { "level": 1-5, "text": "...", "alcohol"?: true }
 import { readFileSync } from 'node:fs';
-import { KINDS, normalize, readCards, writeCards } from './cards-lib.mjs';
+import { KINDS, LEVELS, normalize, readCards, writeCards } from './cards-lib.mjs';
 
 const [kind, file, lang = 'es'] = process.argv.slice(2);
 if (!KINDS[kind] || !file) {
@@ -23,7 +23,7 @@ let added = 0;
 let skipped = 0;
 for (const { level, text, alcohol } of incoming) {
   const t = String(text ?? '').trim();
-  if (![1, 2, 3, 4].includes(level) || t.length < 5 || seen.has(normalize(t))) {
+  if (!LEVELS.includes(level) || t.length < 5 || seen.has(normalize(t))) {
     skipped++;
     continue;
   }

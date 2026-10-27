@@ -1,4 +1,4 @@
-export type Level = 1 | 2 | 3 | 4;
+export type Level = 1 | 2 | 3 | 4 | 5;
 
 /** Tipo de carta. Cada uno vive en su propio JSON dentro de src/content/<idioma>/ */
 export type CardKind =

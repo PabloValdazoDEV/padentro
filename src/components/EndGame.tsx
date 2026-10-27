@@ -66,7 +66,7 @@ export default function EndGame({ stats, premium, onContinue, onFinish, onPremiu
         </button>
         {!premium && (
           <button className="btn btn-premium" onClick={onPremium}>
-            🌶️ ¿Os habéis quedado con ganas? Desbloquea Extremo
+            🔥 ¿Os habéis quedado con ganas? Desbloquea Sin filtro
           </button>
         )}
         <div className="end-actions">

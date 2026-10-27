@@ -12,6 +12,7 @@ export const KINDS = {
   regla: 'rg',
 };
 export const TOKENS = ['{jugador}', '{otro}'];
+export const LEVELS = [1, 2, 3, 4, 5];
 
 export const langs = () => readdirSync(CONTENT_DIR, { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name);
 export const fileFor = (lang, kind) => join(CONTENT_DIR, lang, `${kind}.json`);

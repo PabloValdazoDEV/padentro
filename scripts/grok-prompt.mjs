@@ -4,17 +4,19 @@
 // Uso: npm run prompt -- <tipo> <nivel> [cantidad]
 import { execSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
-import { KINDS, readCards } from './cards-lib.mjs';
+import { KINDS, LEVELS, readCards } from './cards-lib.mjs';
 
 const [kind, levelArg, n = '30'] = process.argv.slice(2);
 const level = Number(levelArg);
-if (!KINDS[kind] || ![1, 2, 3, 4].includes(level)) {
-  console.error(`Uso: npm run prompt -- <${Object.keys(KINDS).join('|')}> <1-4> [cantidad]`);
+if (!KINDS[kind] || !LEVELS.includes(level)) {
+  console.error(`Uso: npm run prompt -- <${Object.keys(KINDS).join('|')}> <1-${LEVELS.length}> [cantidad]`);
   process.exit(1);
 }
 
 const doc = readFileSync(new URL('../docs/GROK.md', import.meta.url), 'utf8');
 const template = doc.match(/## Prompt base[\s\S]*?```text\n([\s\S]*?)```/)[1];
+// El nivel 5 es el único con contenido sexual: cambia la regla de contenido.
+const contentRule = doc.match(new RegExp(`### ${level === 5 ? 'nivel-5' : 'niveles-1-4'}\\n([\\s\\S]*?)(?=\\n### |\\n## |$)`))[1].trim();
 const notes = doc.match(new RegExp(`### ${kind}\\n([\\s\\S]*?)(?=\\n### |\\n## |$)`))[1].trim();
 
 const cards = readCards('es', kind);
@@ -34,6 +36,7 @@ const prompt = template
   .replaceAll('<TIPO>', kind)
   .replaceAll('<NIVEL>', String(level))
   .replaceAll('<N>', n)
+  .replace('<REGLA_CONTENIDO>', contentRule)
   .replace('<NOTAS_TIPO>', notes)
   .replace('<EJEMPLOS>', examples)
   .replace('<EXISTENTES>', existing)

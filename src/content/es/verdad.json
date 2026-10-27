@@ -783,5 +783,65 @@
     "id": "v4-044",
     "level": 4,
     "text": "¿De qué te arrepientes más de lo que le has dicho o hecho a alguien de este grupo?"
+  },
+  {
+    "id": "v5-001",
+    "level": 5,
+    "text": "¿Con quién de este grupo te liarías si mañana se acabara el mundo?"
+  },
+  {
+    "id": "v5-002",
+    "level": 5,
+    "text": "¿Cuál ha sido el sitio más raro donde te has liado con alguien?"
+  },
+  {
+    "id": "v5-003",
+    "level": 5,
+    "text": "¿Qué es lo primero que te fijas en alguien que te pone?"
+  },
+  {
+    "id": "v5-004",
+    "level": 5,
+    "text": "¿Has tenido algún sueño subidito de tono con alguien de aquí? No hace falta decir con quién... o sí."
+  },
+  {
+    "id": "v5-005",
+    "level": 5,
+    "text": "¿Cuál ha sido tu peor experiencia en la cama? Sin nombres."
+  },
+  {
+    "id": "v5-006",
+    "level": 5,
+    "text": "¿Qué te pone que no se lo dirías a tus padres ni muerto/a?"
+  },
+  {
+    "id": "v5-007",
+    "level": 5,
+    "text": "¿Te has liado alguna vez con alguien solo para dar celos?"
+  },
+  {
+    "id": "v5-008",
+    "level": 5,
+    "text": "¿Cuánto tiempo llevas sin liarte con nadie? Sé sincero/a."
+  },
+  {
+    "id": "v5-009",
+    "level": 5,
+    "text": "¿Alguna vez te ha pillado alguien en pleno momento? ¿Quién?"
+  },
+  {
+    "id": "v5-010",
+    "level": 5,
+    "text": "¿Quién de aquí crees que es más fogoso/a? Di el nombre."
+  },
+  {
+    "id": "v5-011",
+    "level": 5,
+    "text": "¿Qué es lo más atrevido que has hecho por ligar?"
+  },
+  {
+    "id": "v5-012",
+    "level": 5,
+    "text": "¿Prefieres una noche loca con alguien desconocido o repetir con tu ex? Explica."
   }
 ]

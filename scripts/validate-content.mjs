@@ -2,7 +2,7 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { mentionsAlcohol, soberize } from '../src/game/sober.js';
-import { CONTENT_DIR, KINDS, TOKENS, langs, normalize, readCards } from './cards-lib.mjs';
+import { CONTENT_DIR, KINDS, LEVELS, TOKENS, langs, normalize, readCards } from './cards-lib.mjs';
 
 // En estos tipos hablar de beber es parte de la frase ("Yo nunca he vomitado por beber"), no una orden.
 const DESCRIPTIVE_KINDS = ['yo-nunca', 'mas-probable'];
@@ -19,11 +19,11 @@ for (const lang of langs()) {
     const cards = readCards(lang, kind);
     const ids = new Set();
     const texts = new Map();
-    const perLevel = [0, 0, 0, 0];
+    const perLevel = LEVELS.map(() => 0);
     for (const c of cards) {
       if (!c.id || ids.has(c.id)) fail(`${kind}: id vacío o repetido (${c.id})`);
       ids.add(c.id);
-      if (![1, 2, 3, 4].includes(c.level)) fail(`${kind} ${c.id}: level debe ser 1-4`);
+      if (!LEVELS.includes(c.level)) fail(`${kind} ${c.id}: level debe ser 1-${LEVELS.length}`);
       else perLevel[c.level - 1]++;
       if (typeof c.text !== 'string' || c.text.trim().length < 5) fail(`${kind} ${c.id}: texto vacío`);
       for (const tok of c.text.match(/\{[^}]*\}/g) ?? []) {
